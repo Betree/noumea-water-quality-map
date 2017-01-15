@@ -5,3 +5,17 @@
 #main-nav {
   box-shadow: 0px 1px 5px #818181;
 }
+
+#about {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#about h4 {
+  margin-top: 25px;
+}
+
+#about p {
+  margin-bottom: 20px;
+}

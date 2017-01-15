@@ -1,4 +1,17 @@
 class NavMenu extends React.Component {
+  get_page_name_from_href(href) {
+    var splitHref = href.split('/')
+    return splitHref[splitHref.length - 1]
+  }
+
+  get_active_link(href, name) {
+    // Must be used only on a website without subdomains
+    var activePage = this.get_page_name_from_href(document.location.toString())
+    var linkPage = this.get_page_name_from_href(href)
+    var isActive = activePage == linkPage ? ' is-active' : ''
+    return <a href={href} className={`nav-item ${isActive}`}>{name}</a>
+  }
+
   render() {
     return <nav id="main-nav" className="nav">
             <div className="nav-left">
@@ -6,7 +19,6 @@ class NavMenu extends React.Component {
                 Nouméa - Qualité de l'eau des plages
               </a>
             </div>
-
             <span className="nav-toggle">
               <span></span>
               <span></span>
@@ -14,12 +26,8 @@ class NavMenu extends React.Component {
             </span>
 
             <div className="nav-center nav-menu">
-              <a href="index.html" className="nav-item">
-                Map
-              </a>
-              <a href="about.html" className="nav-item">
-                A propos
-              </a>
+              {this.get_active_link("index.html", "Map")}
+              {this.get_active_link("about.html", "A propos")}
             </div>
 
             <div className="nav-right nav-menu">
