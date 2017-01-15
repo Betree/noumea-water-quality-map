@@ -8,6 +8,593 @@
           {
             "type": "Point", 
             "coordinates": [
+              166.475154, 
+              -22.25977
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.476236, 
+                  -22.258784
+                ], 
+                [
+                  166.473905, 
+                  -22.261524
+                ], 
+                [
+                  166.473905, 
+                  -22.265184
+                ], 
+                [
+                  166.4723, 
+                  -22.265184
+                ], 
+                [
+                  166.471992, 
+                  -22.267346
+                ], 
+                [
+                  166.473703, 
+                  -22.268845
+                ], 
+                [
+                  166.474186, 
+                  -22.268454
+                ], 
+                [
+                  166.475612, 
+                  -22.268569
+                ], 
+                [
+                  166.476236, 
+                  -22.270314
+                ], 
+                [
+                  166.476236, 
+                  -22.258784
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 09:10:00", 
+            "intestinal_enterococci": "1 483 ", 
+            "escherichia_coli": "556 "
+          }, 
+          {
+            "date": "05/12/2016 09:10:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "52 "
+          }, 
+          {
+            "date": "08/12/2016 09:16:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "41 "
+          }, 
+          {
+            "date": "12/12/2016 09:05:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "02/01/2017 09:10:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "05/01/2017 09:22:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "52 "
+          }, 
+          {
+            "date": "09/01/2017 09:47:00", 
+            "intestinal_enterococci": "52 ", 
+            "escherichia_coli": "63 "
+          }, 
+          {
+            "date": "12/01/2017 09:55:00", 
+            "intestinal_enterococci": "122 ", 
+            "escherichia_coli": "74 "
+          }
+        ], 
+        "name": "P18043", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.473705, 
+              -22.264699
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.473905, 
+                  -22.264508
+                ], 
+                [
+                  166.472513, 
+                  -22.264508
+                ], 
+                [
+                  166.4723, 
+                  -22.265184
+                ], 
+                [
+                  166.473905, 
+                  -22.265184
+                ], 
+                [
+                  166.473905, 
+                  -22.264508
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 09:09:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "226 "
+          }, 
+          {
+            "date": "05/12/2016 09:19:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "08/12/2016 09:28:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "12/12/2016 09:15:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "02/01/2017 09:20:00", 
+            "intestinal_enterococci": "155 ", 
+            "escherichia_coli": "189 "
+          }, 
+          {
+            "date": "05/01/2017 09:31:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 09:46:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "12/01/2017 09:50:00", 
+            "intestinal_enterococci": "63 ", 
+            "escherichia_coli": "20 "
+          }
+        ], 
+        "name": "P18032", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.471865, 
+              -22.26683
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.476236, 
+                  -22.258784
+                ], 
+                [
+                  166.473905, 
+                  -22.261524
+                ], 
+                [
+                  166.473905, 
+                  -22.265184
+                ], 
+                [
+                  166.4723, 
+                  -22.265184
+                ], 
+                [
+                  166.471992, 
+                  -22.267346
+                ], 
+                [
+                  166.473703, 
+                  -22.268845
+                ], 
+                [
+                  166.474186, 
+                  -22.268454
+                ], 
+                [
+                  166.475612, 
+                  -22.268569
+                ], 
+                [
+                  166.476236, 
+                  -22.270314
+                ], 
+                [
+                  166.476236, 
+                  -22.258784
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 09:04:00", 
+            "intestinal_enterococci": "1 376 ", 
+            "escherichia_coli": "323 "
+          }, 
+          {
+            "date": "05/12/2016 09:25:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 09:36:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 09:30:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "02/01/2017 09:35:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "05/01/2017 09:36:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 09:44:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/01/2017 09:35:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "135 "
+          }
+        ], 
+        "name": "P18031", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.390936, 
+              -22.259847
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.390936, 
+                  -22.259847
+                ], 
+                [
+                  166.389631, 
+                  -22.259303
+                ], 
+                [
+                  166.388919, 
+                  -22.259393
+                ], 
+                [
+                  166.389708, 
+                  -22.260592
+                ], 
+                [
+                  166.390936, 
+                  -22.259847
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 07:49:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 07:44:00", 
+            "intestinal_enterococci": "301 ", 
+            "escherichia_coli": "63 "
+          }, 
+          {
+            "date": "05/01/2017 07:42:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "74 "
+          }, 
+          {
+            "date": "12/01/2017 07:50:00", 
+            "intestinal_enterococci": "63 ", 
+            "escherichia_coli": "31 "
+          }
+        ], 
+        "name": "P18048", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.459152, 
+              -22.303992
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.462197, 
+                  -22.306455
+                ], 
+                [
+                  166.466566, 
+                  -22.309219
+                ], 
+                [
+                  166.466581, 
+                  -22.296855
+                ], 
+                [
+                  166.45906, 
+                  -22.296836
+                ], 
+                [
+                  166.457456, 
+                  -22.300224
+                ], 
+                [
+                  166.458572, 
+                  -22.303442
+                ], 
+                [
+                  166.462197, 
+                  -22.306455
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:49:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:45:00", 
+            "intestinal_enterococci": "134 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "02/01/2017 08:53:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 09:12:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "10 "
+          }
+        ], 
+        "name": "P18061", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.460146, 
+              -22.304897
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.462197, 
+                  -22.306455
+                ], 
+                [
+                  166.466566, 
+                  -22.309219
+                ], 
+                [
+                  166.466581, 
+                  -22.296855
+                ], 
+                [
+                  166.45906, 
+                  -22.296836
+                ], 
+                [
+                  166.457456, 
+                  -22.300224
+                ], 
+                [
+                  166.458572, 
+                  -22.303442
+                ], 
+                [
+                  166.462197, 
+                  -22.306455
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:46:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "41 "
+          }, 
+          {
+            "date": "12/12/2016 08:42:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }
+        ], 
+        "name": "P27", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.460911, 
+              -22.305685
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.462197, 
+                  -22.306455
+                ], 
+                [
+                  166.466566, 
+                  -22.309219
+                ], 
+                [
+                  166.466581, 
+                  -22.296855
+                ], 
+                [
+                  166.45906, 
+                  -22.296836
+                ], 
+                [
+                  166.457456, 
+                  -22.300224
+                ], 
+                [
+                  166.458572, 
+                  -22.303442
+                ], 
+                [
+                  166.462197, 
+                  -22.306455
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:44:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:40:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }
+        ], 
+        "name": "P28", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
               166.448026, 
               -22.307643
             ]
@@ -236,6 +823,703 @@
           }
         ], 
         "name": "P26", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.438011, 
+              -22.300084
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.438137, 
+                  -22.297945
+                ], 
+                [
+                  166.435652, 
+                  -22.299293
+                ], 
+                [
+                  166.434832, 
+                  -22.301857
+                ], 
+                [
+                  166.436986, 
+                  -22.30157
+                ], 
+                [
+                  166.437998, 
+                  -22.300296
+                ], 
+                [
+                  166.438137, 
+                  -22.297945
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:27:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "05/12/2016 07:59:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 08:28:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 07:50:00", 
+            "intestinal_enterococci": "171 ", 
+            "escherichia_coli": "246 "
+          }, 
+          {
+            "date": "02/01/2017 08:03:00", 
+            "intestinal_enterococci": "381 ", 
+            "escherichia_coli": "1 178 "
+          }, 
+          {
+            "date": "03/01/2017 08:11:00", 
+            "intestinal_enterococci": "906 ", 
+            "escherichia_coli": "1 789 "
+          }, 
+          {
+            "date": "04/01/2017 08:20:00", 
+            "intestinal_enterococci": "231 ", 
+            "escherichia_coli": "670 "
+          }, 
+          {
+            "date": "05/01/2017 08:34:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "41 "
+          }, 
+          {
+            "date": "09/01/2017 07:56:00", 
+            "intestinal_enterococci": "272 ", 
+            "escherichia_coli": "228 "
+          }, 
+          {
+            "date": "12/01/2017 08:30:00", 
+            "intestinal_enterococci": "109 ", 
+            "escherichia_coli": "305 "
+          }
+        ], 
+        "name": "P18141", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.438123, 
+              -22.299298
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.438137, 
+                  -22.297945
+                ], 
+                [
+                  166.435652, 
+                  -22.299293
+                ], 
+                [
+                  166.434832, 
+                  -22.301857
+                ], 
+                [
+                  166.436986, 
+                  -22.30157
+                ], 
+                [
+                  166.437998, 
+                  -22.300296
+                ], 
+                [
+                  166.438137, 
+                  -22.297945
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:25:00", 
+            "intestinal_enterococci": "110 ", 
+            "escherichia_coli": "471 "
+          }, 
+          {
+            "date": "05/12/2016 07:56:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 08:19:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 07:46:00", 
+            "intestinal_enterococci": "216 ", 
+            "escherichia_coli": "146 "
+          }, 
+          {
+            "date": "02/01/2017 07:53:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "03/01/2017 08:03:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "04/01/2017 08:10:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "75 "
+          }, 
+          {
+            "date": "05/01/2017 08:20:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "74 "
+          }, 
+          {
+            "date": "09/01/2017 07:54:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "12/01/2017 08:27:00", 
+            "intestinal_enterococci": "691 ", 
+            "escherichia_coli": "988 "
+          }
+        ], 
+        "name": "P18050", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.438052, 
+              -22.297541
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.437557, 
+                  -22.296048
+                ], 
+                [
+                  166.43502, 
+                  -22.297286
+                ], 
+                [
+                  166.435552, 
+                  -22.298958
+                ], 
+                [
+                  166.438139, 
+                  -22.297763
+                ], 
+                [
+                  166.437557, 
+                  -22.296048
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:23:00", 
+            "intestinal_enterococci": "146 ", 
+            "escherichia_coli": "288 "
+          }, 
+          {
+            "date": "05/12/2016 07:53:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "08/12/2016 08:15:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 07:42:00", 
+            "intestinal_enterococci": "364 ", 
+            "escherichia_coli": "521 "
+          }, 
+          {
+            "date": "02/01/2017 07:50:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "03/01/2017 07:59:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "04/01/2017 08:07:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "30 "
+          }, 
+          {
+            "date": "05/01/2017 08:15:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "158 "
+          }, 
+          {
+            "date": "09/01/2017 07:50:00", 
+            "intestinal_enterococci": "288 ", 
+            "escherichia_coli": "135 "
+          }, 
+          {
+            "date": "12/01/2017 08:25:00", 
+            "intestinal_enterococci": "108 ", 
+            "escherichia_coli": "231 "
+          }
+        ], 
+        "name": "P16", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.437984, 
+              -22.303335
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.436631, 
+                  -22.30393
+                ], 
+                [
+                  166.436797, 
+                  -22.304375
+                ], 
+                [
+                  166.436236, 
+                  -22.306162
+                ], 
+                [
+                  166.438227, 
+                  -22.306162
+                ], 
+                [
+                  166.438371, 
+                  -22.303143
+                ], 
+                [
+                  166.437143, 
+                  -22.303461
+                ], 
+                [
+                  166.436631, 
+                  -22.30393
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:35:00", 
+            "intestinal_enterococci": "86 ", 
+            "escherichia_coli": "98 "
+          }, 
+          {
+            "date": "05/12/2016 08:11:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "08/12/2016 08:36:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:04:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "51 "
+          }, 
+          {
+            "date": "02/01/2017 08:14:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "05/01/2017 08:40:00", 
+            "intestinal_enterococci": "173 ", 
+            "escherichia_coli": "399 "
+          }, 
+          {
+            "date": "06/01/2017 08:24:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 08:26:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "96 "
+          }, 
+          {
+            "date": "12/01/2017 08:45:00", 
+            "intestinal_enterococci": "52 ", 
+            "escherichia_coli": "10 "
+          }
+        ], 
+        "name": "P18054", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.442555, 
+              -22.302973
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.443225, 
+                  -22.302994
+                ], 
+                [
+                  166.443978, 
+                  -22.305628
+                ], 
+                [
+                  166.444204, 
+                  -22.305718
+                ], 
+                [
+                  166.443719, 
+                  -22.303028
+                ], 
+                [
+                  166.443225, 
+                  -22.302994
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:40:00", 
+            "intestinal_enterococci": "96 ", 
+            "escherichia_coli": "97 "
+          }, 
+          {
+            "date": "05/12/2016 08:14:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 08:40:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:07:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "02/01/2017 08:15:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "05/01/2017 08:43:00", 
+            "intestinal_enterococci": "30 ", 
+            "escherichia_coli": "122 "
+          }, 
+          {
+            "date": "06/01/2017 08:29:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 08:34:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "836 "
+          }, 
+          {
+            "date": "12/01/2017 08:50:00", 
+            "intestinal_enterococci": "173 ", 
+            "escherichia_coli": "187 "
+          }
+        ], 
+        "name": "P18055", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.446957, 
+              -22.304339
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.443719, 
+                  -22.303028
+                ], 
+                [
+                  166.444204, 
+                  -22.305718
+                ], 
+                [
+                  166.444839, 
+                  -22.305954
+                ], 
+                [
+                  166.44728, 
+                  -22.304638
+                ], 
+                [
+                  166.445564, 
+                  -22.303503
+                ], 
+                [
+                  166.443719, 
+                  -22.303028
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:47:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "75 "
+          }, 
+          {
+            "date": "05/12/2016 08:21:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "08/12/2016 08:46:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "12/12/2016 08:14:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "02/01/2017 08:20:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "20 "
+          }, 
+          {
+            "date": "05/01/2017 08:50:00", 
+            "intestinal_enterococci": "714 ", 
+            "escherichia_coli": "3 076 "
+          }, 
+          {
+            "date": "06/01/2017 08:35:00", 
+            "intestinal_enterococci": "20 ", 
+            "escherichia_coli": "52 "
+          }, 
+          {
+            "date": "09/01/2017 08:38:00", 
+            "intestinal_enterococci": "199 ", 
+            "escherichia_coli": "627 "
+          }, 
+          {
+            "date": "12/01/2017 09:00:00", 
+            "intestinal_enterococci": "749 ", 
+            "escherichia_coli": "631 "
+          }
+        ], 
+        "name": "P18056", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.436229, 
+              -22.30342
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.434078, 
+                  -22.303627
+                ], 
+                [
+                  166.433756, 
+                  -22.306234
+                ], 
+                [
+                  166.435272, 
+                  -22.306234
+                ], 
+                [
+                  166.435905, 
+                  -22.30446
+                ], 
+                [
+                  166.436809, 
+                  -22.303476
+                ], 
+                [
+                  166.434078, 
+                  -22.303627
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "01/12/2016 08:33:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "05/12/2016 08:07:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "08/12/2016 08:32:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:00:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "414 "
+          }, 
+          {
+            "date": "02/01/2017 08:10:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "05/01/2017 08:38:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "06/01/2017 08:20:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 08:22:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "146 "
+          }, 
+          {
+            "date": "12/01/2017 08:42:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "10 "
+          }
+        ], 
+        "name": "P18053", 
         "popupContent": "test"
       }
     }

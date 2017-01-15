@@ -74,9 +74,7 @@ class NoumeaReportParser:
                 if point_name[0] == 'P':
                     print("[WARNING] Point ignored (missing from YAML) : {}"
                             .format(point_name))
-                    num_line += 1
-                else:
-                    return num_line
+                num_line += 1
 
             # Otherwise parse point data
             else:
