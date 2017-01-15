@@ -1,0 +1,62 @@
+# Please ensure all polygons created wi area are closed (first coordinate must
+# be the same as last coordinate)
+# Also, please follow the right-hand rule for these
+#
+# Coordinates must be in the shape [longitude, latitude] (WGS84 specification)
+
+PLAGE DE LA POINTE MAGNIN:
+  P18057:
+    location: [166.448026, -22.307643]
+    area: [[166.448026, -22.307643],
+           [166.44521, -22.307652],
+           [166.445474, -22.308569],
+           [166.448244, -22.308216],
+           [166.448026, -22.307643]]
+
+
+  P18058:
+    location: [166.448376,-22.309138]
+    area: [[166.448254, -22.308241],
+           [166.447423, -22.308699],
+           [166.445482, -22.309234],
+           [166.445503, -22.309436],
+           [166.447424, -22.309378],
+           [166.448428, -22.309624],
+           [166.448254, -22.308241]]
+
+  P26:
+    location: [166.448188, -22.31084]
+    area: [[166.448396, -22.310036],
+           [166.447403, -22.309756],
+           [166.445503, -22.309793],
+           [166.445503, -22.310305],
+           [166.447818, -22.311061],
+           [166.448277, -22.311086],
+           [166.448396, -22.310036]]
+
+
+# PLAGE DE LA PROMENADE PIERRE VERNIER:
+#   - P18059
+  # - P18060
+  # - P18061
+  # - P27
+  # - P28
+#
+# PLAGE DE L'ANSE VATA:
+#   - P18053
+#   - P18054
+#   - P18055
+#   - P18056
+#
+# PLAGE DE MAGENTA:
+#   - P18031
+#   - P18032
+#   - P18043
+#
+# PLAGE DU KUENDU BEACH:
+#   - P18048
+#
+# PLAGE DE LA BAIE CITRONS:
+#   - P16
+#   - P18050
+#   - P18141

@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.448026, 
+              -22.307643
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.448026, 
+                  -22.307643
+                ], 
+                [
+                  166.44521, 
+                  -22.307652
+                ], 
+                [
+                  166.445474, 
+                  -22.308569
+                ], 
+                [
+                  166.448244, 
+                  -22.308216
+                ], 
+                [
+                  166.448026, 
+                  -22.307643
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:26:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:24:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "30 "
+          }, 
+          {
+            "date": "02/01/2017 08:28:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "09/01/2017 08:50:00", 
+            "intestinal_enterococci": "41 ", 
+            "escherichia_coli": "121 "
+          }, 
+          {
+            "date": "11/01/2017 08:40:00", 
+            "intestinal_enterococci": "414 ", 
+            "escherichia_coli": "134 "
+          }
+        ], 
+        "name": "P18057", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.448376, 
+              -22.309138
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.448254, 
+                  -22.308241
+                ], 
+                [
+                  166.447423, 
+                  -22.308699
+                ], 
+                [
+                  166.445482, 
+                  -22.309234
+                ], 
+                [
+                  166.445503, 
+                  -22.309436
+                ], 
+                [
+                  166.447424, 
+                  -22.309378
+                ], 
+                [
+                  166.448428, 
+                  -22.309624
+                ], 
+                [
+                  166.448254, 
+                  -22.308241
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:30:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:27:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "02/01/2017 08:31:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "31 "
+          }, 
+          {
+            "date": "09/01/2017 08:52:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "11/01/2017 08:44:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "86 "
+          }
+        ], 
+        "name": "P18058", 
+        "popupContent": "test"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "GeometryCollection", 
+        "geometries": [
+          {
+            "type": "Point", 
+            "coordinates": [
+              166.448188, 
+              -22.31084
+            ]
+          }, 
+          {
+            "type": "Polygon", 
+            "coordinates": [
+              [
+                [
+                  166.448396, 
+                  -22.310036
+                ], 
+                [
+                  166.447403, 
+                  -22.309756
+                ], 
+                [
+                  166.445503, 
+                  -22.309793
+                ], 
+                [
+                  166.445503, 
+                  -22.310305
+                ], 
+                [
+                  166.447818, 
+                  -22.311061
+                ], 
+                [
+                  166.448277, 
+                  -22.311086
+                ], 
+                [
+                  166.448396, 
+                  -22.310036
+                ]
+              ]
+            ]
+          }
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "amenity": "test", 
+        "data": [
+          {
+            "date": "05/12/2016 08:32:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "10 "
+          }, 
+          {
+            "date": "12/12/2016 08:30:00", 
+            "intestinal_enterococci": "52 ", 
+            "escherichia_coli": "62 "
+          }, 
+          {
+            "date": "02/01/2017 08:33:00", 
+            "intestinal_enterococci": "10 ", 
+            "escherichia_coli": "63 "
+          }, 
+          {
+            "date": "09/01/2017 09:04:00", 
+            "intestinal_enterococci": "31 ", 
+            "escherichia_coli": "41 "
+          }, 
+          {
+            "date": "11/01/2017 08:46:00", 
+            "intestinal_enterococci": "86 ", 
+            "escherichia_coli": "313 "
+          }
+        ], 
+        "name": "P26", 
+        "popupContent": "test"
+      }
+    }
+  ]
+}

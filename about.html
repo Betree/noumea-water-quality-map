@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nouméa - Qualité de l'eau des plages</title>
+    <meta name="description" content="Carte interactive de la qualité de l'eau sur les plages de Nouméa">
+    <meta name="author" content="Benjamin Piouffle">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="nav-menu"></div>
+    <div id="about" class="box">
+      <h1 class="title is-1">A propos</h1>
+      Projet open source réalisé avec <span class="icon is-small">
+        <i class="fa fa-heart"></i>
+      </span>
+      par <a href="benjamin.piouffle.me">Benjamin Piouffle</a><br>
+      Le code et l'ensemble des ressources sont sous licenses MIT, vous êtes donc
+      libre de les partager et le modifier gratuitement (voir
+      <a href="https://tldrlegal.com/license/mit-license">ce lien</a> pour les détails)
+    <div>
+    <!-- Libraries -->
+    <!-- On a bigger website, you may want to pre-compile your jsx files -->
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
+    <script src="node_modules/react/dist/react.min.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
+
+    <!-- React components -->
+    <script type="text/babel" src="js/components/nav_menu.jsx"></script>
+  </body>
+</html>
