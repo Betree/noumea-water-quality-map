@@ -63,7 +63,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 09:10:00", 
@@ -106,8 +105,7 @@
             "escherichia_coli": "74 "
           }
         ], 
-        "name": "P18043", 
-        "popupContent": "test"
+        "name": "P18043"
       }
     }, 
     {
@@ -152,7 +150,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 09:09:00", 
@@ -195,73 +192,19 @@
             "escherichia_coli": "20 "
           }
         ], 
-        "name": "P18032", 
-        "popupContent": "test"
+        "name": "P18032"
       }
     }, 
     {
       "geometry": {
-        "type": "GeometryCollection", 
-        "geometries": [
-          {
-            "type": "Point", 
-            "coordinates": [
-              166.471865, 
-              -22.26683
-            ]
-          }, 
-          {
-            "type": "Polygon", 
-            "coordinates": [
-              [
-                [
-                  166.476236, 
-                  -22.258784
-                ], 
-                [
-                  166.473905, 
-                  -22.261524
-                ], 
-                [
-                  166.473905, 
-                  -22.265184
-                ], 
-                [
-                  166.4723, 
-                  -22.265184
-                ], 
-                [
-                  166.471992, 
-                  -22.267346
-                ], 
-                [
-                  166.473703, 
-                  -22.268845
-                ], 
-                [
-                  166.474186, 
-                  -22.268454
-                ], 
-                [
-                  166.475612, 
-                  -22.268569
-                ], 
-                [
-                  166.476236, 
-                  -22.270314
-                ], 
-                [
-                  166.476236, 
-                  -22.258784
-                ]
-              ]
-            ]
-          }
+        "type": "Point", 
+        "coordinates": [
+          166.471865, 
+          -22.26683
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 09:04:00", 
@@ -304,8 +247,7 @@
             "escherichia_coli": "135 "
           }
         ], 
-        "name": "P18031", 
-        "popupContent": "test"
+        "name": "P18031"
       }
     }, 
     {
@@ -350,7 +292,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 07:49:00", 
@@ -373,61 +314,19 @@
             "escherichia_coli": "31 "
           }
         ], 
-        "name": "P18048", 
-        "popupContent": "test"
+        "name": "P18048"
       }
     }, 
     {
       "geometry": {
-        "type": "GeometryCollection", 
-        "geometries": [
-          {
-            "type": "Point", 
-            "coordinates": [
-              166.459152, 
-              -22.303992
-            ]
-          }, 
-          {
-            "type": "Polygon", 
-            "coordinates": [
-              [
-                [
-                  166.462197, 
-                  -22.306455
-                ], 
-                [
-                  166.466566, 
-                  -22.309219
-                ], 
-                [
-                  166.466581, 
-                  -22.296855
-                ], 
-                [
-                  166.45906, 
-                  -22.296836
-                ], 
-                [
-                  166.457456, 
-                  -22.300224
-                ], 
-                [
-                  166.458572, 
-                  -22.303442
-                ], 
-                [
-                  166.462197, 
-                  -22.306455
-                ]
-              ]
-            ]
-          }
+        "type": "Point", 
+        "coordinates": [
+          166.459152, 
+          -22.303992
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:49:00", 
@@ -450,8 +349,7 @@
             "escherichia_coli": "10 "
           }
         ], 
-        "name": "P18061", 
-        "popupContent": "test"
+        "name": "P18061"
       }
     }, 
     {
@@ -504,7 +402,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:46:00", 
@@ -517,61 +414,19 @@
             "escherichia_coli": "10 "
           }
         ], 
-        "name": "P27", 
-        "popupContent": "test"
+        "name": "P27"
       }
     }, 
     {
       "geometry": {
-        "type": "GeometryCollection", 
-        "geometries": [
-          {
-            "type": "Point", 
-            "coordinates": [
-              166.460911, 
-              -22.305685
-            ]
-          }, 
-          {
-            "type": "Polygon", 
-            "coordinates": [
-              [
-                [
-                  166.462197, 
-                  -22.306455
-                ], 
-                [
-                  166.466566, 
-                  -22.309219
-                ], 
-                [
-                  166.466581, 
-                  -22.296855
-                ], 
-                [
-                  166.45906, 
-                  -22.296836
-                ], 
-                [
-                  166.457456, 
-                  -22.300224
-                ], 
-                [
-                  166.458572, 
-                  -22.303442
-                ], 
-                [
-                  166.462197, 
-                  -22.306455
-                ]
-              ]
-            ]
-          }
+        "type": "Point", 
+        "coordinates": [
+          166.460911, 
+          -22.305685
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:44:00", 
@@ -584,8 +439,7 @@
             "escherichia_coli": "10 "
           }
         ], 
-        "name": "P28", 
-        "popupContent": "test"
+        "name": "P28"
       }
     }, 
     {
@@ -630,7 +484,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:26:00", 
@@ -658,8 +511,7 @@
             "escherichia_coli": "134 "
           }
         ], 
-        "name": "P18057", 
-        "popupContent": "test"
+        "name": "P18057"
       }
     }, 
     {
@@ -712,7 +564,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:30:00", 
@@ -740,8 +591,7 @@
             "escherichia_coli": "86 "
           }
         ], 
-        "name": "P18058", 
-        "popupContent": "test"
+        "name": "P18058"
       }
     }, 
     {
@@ -794,7 +644,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "05/12/2016 08:32:00", 
@@ -822,57 +671,19 @@
             "escherichia_coli": "313 "
           }
         ], 
-        "name": "P26", 
-        "popupContent": "test"
+        "name": "P26"
       }
     }, 
     {
       "geometry": {
-        "type": "GeometryCollection", 
-        "geometries": [
-          {
-            "type": "Point", 
-            "coordinates": [
-              166.438011, 
-              -22.300084
-            ]
-          }, 
-          {
-            "type": "Polygon", 
-            "coordinates": [
-              [
-                [
-                  166.438137, 
-                  -22.297945
-                ], 
-                [
-                  166.435652, 
-                  -22.299293
-                ], 
-                [
-                  166.434832, 
-                  -22.301857
-                ], 
-                [
-                  166.436986, 
-                  -22.30157
-                ], 
-                [
-                  166.437998, 
-                  -22.300296
-                ], 
-                [
-                  166.438137, 
-                  -22.297945
-                ]
-              ]
-            ]
-          }
+        "type": "Point", 
+        "coordinates": [
+          166.438011, 
+          -22.300084
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:27:00", 
@@ -925,8 +736,7 @@
             "escherichia_coli": "305 "
           }
         ], 
-        "name": "P18141", 
-        "popupContent": "test"
+        "name": "P18141"
       }
     }, 
     {
@@ -975,7 +785,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:25:00", 
@@ -1028,8 +837,7 @@
             "escherichia_coli": "988 "
           }
         ], 
-        "name": "P18050", 
-        "popupContent": "test"
+        "name": "P18050"
       }
     }, 
     {
@@ -1074,7 +882,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:23:00", 
@@ -1127,8 +934,7 @@
             "escherichia_coli": "231 "
           }
         ], 
-        "name": "P16", 
-        "popupContent": "test"
+        "name": "P16"
       }
     }, 
     {
@@ -1181,7 +987,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:35:00", 
@@ -1229,8 +1034,7 @@
             "escherichia_coli": "10 "
           }
         ], 
-        "name": "P18054", 
-        "popupContent": "test"
+        "name": "P18054"
       }
     }, 
     {
@@ -1275,7 +1079,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:40:00", 
@@ -1323,8 +1126,7 @@
             "escherichia_coli": "187 "
           }
         ], 
-        "name": "P18055", 
-        "popupContent": "test"
+        "name": "P18055"
       }
     }, 
     {
@@ -1373,7 +1175,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:47:00", 
@@ -1421,8 +1222,7 @@
             "escherichia_coli": "631 "
           }
         ], 
-        "name": "P18056", 
-        "popupContent": "test"
+        "name": "P18056"
       }
     }, 
     {
@@ -1471,7 +1271,6 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "amenity": "test", 
         "data": [
           {
             "date": "01/12/2016 08:33:00", 
@@ -1519,8 +1318,7 @@
             "escherichia_coli": "10 "
           }
         ], 
-        "name": "P18053", 
-        "popupContent": "test"
+        "name": "P18053"
       }
     }
   ]

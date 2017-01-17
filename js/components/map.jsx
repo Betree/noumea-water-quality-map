@@ -43,9 +43,11 @@ class Map extends React.Component {
     this.geoJSONRequest.then(
       // Success handler
       (data, xhr) => {
-        L.geoJSON(data).addTo(this.map)
+        //this.geoJSONData = data;
+        // this.redrawGeoJSON();
+        this.geoJSONLayer = L.geoJSON(data, this.props.geoJSONParams).addTo(this.map)
       },
-      // Error handler (optional)
+      // Error handler
       (data, xhr) => {
         console.error(data, xhr.status)
       }
@@ -60,6 +62,11 @@ class Map extends React.Component {
     return <div id={MAP_ID} style={{height: this.state.height}}></div>
   }
 
+  redrawGeoJSON() {
+    this.geoJSONLayer.eachLayer((layer) => {this.geoJSONLayer.resetStyle(layer)});
+    // Should also reset popup...etc
+  }
+
   resetHeight() {
     this.setState({height: window.innerHeight - MENU_BAR_SIZE});
   }
@@ -69,13 +76,6 @@ Map.defaultProps = {
   initialLocation: new L.LatLng(0, 0),
   initialZoom: 1,
   bounds: [[-22.33, 166.28], [-22.18, 166.61]],
-  geoJSONFile: null
+  geoJSONFile: null,
+  geoJSONParams: {}
 }
-
-ReactDOM.render(
-  <Map initialLocation={new L.LatLng(-22.26, 166.45)} initialZoom={13}
-    boundToStartRegion={true} bounds={[[-22.33, 166.28], [-22.18, 166.61]]}
-    geoJSONFile="data/geojson/simple.geojson"
-    />,
-  document.getElementById('map-container')
-);

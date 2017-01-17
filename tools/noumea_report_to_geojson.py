@@ -23,6 +23,8 @@ from geojson import Feature, Point, Polygon
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 SAMPLING_POINTS_FILENAME = os.path.join(SCRIPT_DIR, 'sampling_points.yaml')
+INPUT_DATETIME_FORMAT = "%d/%m/%Y %H:%M:%S"
+OUTPUT_DATETIME_FORMAT = INPUT_DATETIME_FORMAT
 
 
 class NoumeaReportParser:
@@ -117,8 +119,7 @@ class NoumeaReportParser:
 
     def gen_datetime(self, date_string, time_string):
         datetime_string = '{} {}'.format(date_string, time_string)
-        return datetime_string
-        #return datetime.strptime(datetime_string, "%d/%m/%Y %H:%M:%S")
+        return datetime.strptime(datetime_string, INPUT_DATETIME_FORMAT)
 
 
 class ParsedDataToGeoJSONConverter:
@@ -132,25 +133,34 @@ class ParsedDataToGeoJSONConverter:
         for location, points in data.items():
             for point_name, point_data in points.items():
                 point = Point(self.points_config[point_name]['location'])
-                area = Polygon([self.points_config[point_name]['area']])
-                geometries = GeometryCollection([point, area])
+                if 'area' in self.points_config[point_name]: # Area is optional
+                    area = Polygon([self.points_config[point_name]['area']])
+                    geometries = GeometryCollection([point, area])
+                else:
+                    geometries = point
                 point_properties = {
                     'name': point_name,
-                    'amenity': "test",
-                    'popupContent': "test",
-                    'data': point_data
+                    'data': self.convert_dates_to_strings(
+                        self.sort_data_by_date(point_data)
+                    )
                 }
                 feat = Feature(geometry=geometries, properties=point_properties)
                 features.append(feat)
         return self.validate(FeatureCollection(features))
+
+    def convert_dates_to_strings(self, point_data):
+        for d in point_data:
+            d['date'] = d['date'].strftime(OUTPUT_DATETIME_FORMAT)
+        return point_data
+
+    def sort_data_by_date(self, point_data):
+        return sorted(point_data, key=lambda e: e['date'])
 
     def validate(self, feature_collection):
         validation = geojson.is_valid(feature_collection)
         if validation['valid'] == 'no':
             print('[ERROR] {}'.format(validation['message']))
             return None
-        # Also check all polygons are closed
-
         return feature_collection
 
 
