@@ -22,7 +22,8 @@ module.exports = {
     copycat: {
       "fonts": "node_modules/font-awesome/fonts",
       "leaflet": "node_modules/leaflet/dist/leaflet.css",
-      "leaflet/images": "node_modules/leaflet/dist/images"
+      "leaflet/images": "node_modules/leaflet/dist/images",
+      "data": "data"
     }
   }
 

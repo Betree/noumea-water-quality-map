@@ -1,14 +1,15 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Nouméa - Qualité de l'eau des plages</title>
     <meta name="description" content="Carte interactive de la qualité de l'eau sur les plages de Nouméa">
     <meta name="author" content="Benjamin Piouffle">
 
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="/vendor.js"></script>
+    <script src="/app.js"></script>
   </head>
   <body>
     <div id="nav-menu"></div>
@@ -40,13 +41,6 @@
         <a href="http://www.noumea.nc/sites/default/files/interpretation_des_resultats_ebm.pdf">les recommandations de la DASS</a>.
       </p>
     <div>
-    <!-- Libraries -->
-    <!-- On a bigger website, you may want to pre-compile your jsx files -->
-    <script src="node_modules/babel-standalone/babel.min.js"></script>
-    <script src="node_modules/react/dist/react.min.js"></script>
-    <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
-
-    <!-- React components -->
-    <script type="text/babel" src="js/components/nav_menu.jsx"></script>
+    <script>require('initialize');</script>
   </body>
 </html>
