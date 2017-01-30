@@ -5,16 +5,20 @@
 @import "bulma/sass/elements/button"
 @import "bulma/sass/elements/icon"
 @import "bulma/sass/elements/title"
+@import "bulma/sass/elements/tag"
 @import "bulma/sass/components/nav"
 
 @import "font-awesome/scss/font-awesome"
 
 // Custom styles
+$floating-components-border: 2px solid rgba(0,0,0,0.2)
+$nav-menu-height: 50px
+
 html
   overflow: hidden
 
 #nav-menu
-  height: 50px
+  height: $nav-menu-height
 
 #main-nav
   box-shadow: 0px 1px 5px #818181
@@ -28,7 +32,8 @@ html
   width: 100%
 
 #date-select-slider-container
-  background: #ffffffe6
+  background: rgba(255, 255, 255, 0.90)
+  border: $floating-components-border
   max-width: 400px
   margin: 0 auto
   text-align: center
@@ -36,9 +41,36 @@ html
   border-radius: 10px 10px 0 0
 
   input[type=range]
-    height: 25px
+    height: 35px
     display: block
     width: 100%
+
+  .title
+    font-weight: bold
+
+#legend
+  position: fixed
+  right: 5px
+  top: 65px
+  padding: 10px
+  background: rgba(255, 255, 255, 0.90)
+  z-index: 1000
+  border: $floating-components-border
+  border-radius: 3px
+
+  &:not(.expanded)
+    .legend-entry
+      display: none
+
+  .expand-button
+    float: right
+
+  .color-block
+    width: 30px
+    height: 15px
+    display: inline-block
+    margin-right: 5px
+    border: 1px solid #6b6b6b
 
 #about
   max-width: 650px

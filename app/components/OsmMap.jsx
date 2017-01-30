@@ -52,7 +52,7 @@ export default class OsmMap extends React.Component {
   }
 
   resetHeight() {
-    this.setState({height: window.innerHeight})
+    this.setState({height: window.innerHeight - MENU_BAR_SIZE})
   }
 }
 
