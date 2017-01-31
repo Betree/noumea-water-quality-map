@@ -46,11 +46,6 @@ export default class OsmMap extends React.Component {
     return <div id={MAP_ID} style={{height: this.state.height}}></div>
   }
 
-  redrawGeoJSON() {
-    this.geoJSONLayer.eachLayer((layer) => {this.geoJSONLayer.resetStyle(layer)});
-    // Should also reset popup...etc
-  }
-
   resetHeight() {
     this.setState({height: window.innerHeight - MENU_BAR_SIZE})
   }

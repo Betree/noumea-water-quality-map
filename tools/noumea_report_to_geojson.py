@@ -28,10 +28,10 @@ OUTPUT_DATETIME_FORMAT = INPUT_DATETIME_FORMAT
 
 
 class NoumeaReportParser:
-    def __init__(self, points_locations, points_names_list):
+    def __init__(self, points_locations_names, points_names):
         self.data = {}
-        self.points_locations = points_locations
-        self.points_names_list = points_names_list
+        self.points_locations_names = points_locations_names
+        self.points_names = points_names
 
     def load(self, pdf_path):
         # Export report to XML using pdftohtml
@@ -53,7 +53,7 @@ class NoumeaReportParser:
         num_line = 0
         while num_line in range(0, line_count):
             line = lines[num_line]
-            if line in self.points_locations:
+            if line in self.points_locations_names:
                 num_line = self.parse_location(lines, num_line, line_count)
             else:
                 num_line += 1
@@ -67,12 +67,12 @@ class NoumeaReportParser:
             point_name = lines[num_line].split(',')[0]
 
             # Parse other locations recursively
-            if lines[num_line] in self.points_locations:
+            if lines[num_line] in self.points_locations_names:
                 num_line = self.parse_location(lines, num_line, line_count)
 
             # If the point is unknown, stop the parsing here but generate
             # a warning if it looks like one
-            elif point_name not in self.points_names_list:
+            elif point_name not in self.points_names:
                 if point_name[0] == 'P':
                     print("[WARNING] Point ignored (missing from YAML) : {}"
                             .format(point_name))
@@ -128,29 +128,57 @@ class ParsedDataToGeoJSONConverter:
         self.points_config = points_config
 
     def convert(self, data):
+        # for location, points in data.items():
+        #     for point_name, point_data in points.items():
+        #         point = Point(self.points_config[point_name]['location'])
+        #         if 'area' in self.points_config[point_name]: # Area is optional
+        #             area = Polygon([self.points_config[point_name]['area']])
+        #             geometries = GeometryCollection([point, area])
+        #         else:
+        #             geometries = point
+        #         point_properties = {
+        #             'name': point_name,
+        #             'data': self.convert_dates_to_strings(
+        #                 self.sort_data_by_date(point_data)
+        #             )
+        #         }
+        #         feat = Feature(geometry=geometries, properties=point_properties)
+        #         features.append(feat)
         features = []
+        for points_info in self.points_config:
+            # Generate area feature
+            if 'area' in points_info:
+                area_geometry = Polygon([points_info['area']])
+                area_props = {'points': points_info['points'].keys()}
+                area_feat = Feature(geometry=area_geometry, properties=area_props)
+                features.append(area_feat)
 
-        for location, points in data.items():
-            for point_name, point_data in points.items():
-                point = Point(self.points_config[point_name]['location'])
-                if 'area' in self.points_config[point_name]: # Area is optional
-                    area = Polygon([self.points_config[point_name]['area']])
-                    geometries = GeometryCollection([point, area])
-                else:
-                    geometries = point
-                point_properties = {
+            # Generate points features for this area
+            for point_name, point_location in points_info['points'].items():
+                point_data = self.get_point_data(data, point_name)
+                if not point_data:
+                    continue
+                point = Point(point_location)
+                features.append(Feature(geometry=point, properties = {
                     'name': point_name,
                     'data': self.convert_dates_to_strings(
-                        self.sort_data_by_date(point_data)
-                    )
-                }
-                feat = Feature(geometry=geometries, properties=point_properties)
-                features.append(feat)
+                                self.sort_data_by_date(point_data)
+                            )
+                }))
+
         return self.validate(FeatureCollection(features))
+
+    def get_point_data(self, data, requested_point_name):
+        for location, points in data.items():
+            for point_name, point_data in points.items():
+                if point_name == requested_point_name:
+                    return point_data
+        return None
 
     def convert_dates_to_strings(self, point_data):
         for d in point_data:
             d['date'] = d['date'].strftime(OUTPUT_DATETIME_FORMAT)
+
         return point_data
 
     def sort_data_by_date(self, point_data):
@@ -187,12 +215,12 @@ def main():
     # Parse sampling points config
     with open(SAMPLING_POINTS_FILENAME) as sampling_points_file:
         full_config = yaml.safe_load(sampling_points_file)
-        points_locations = full_config.keys()
-        points_config = merge_dict_list(full_config.values())
-        points_names_list = points_config.keys()
+        points_locations_names = full_config.keys()
+        points_config = [val for sublist in full_config.values() for val in sublist]
+        points_names = [name for e in points_config for name in e['points'].keys() ]
 
     # Parse reports
-    parser = NoumeaReportParser(points_locations, points_names_list)
+    parser = NoumeaReportParser(points_locations_names, points_names)
     for pdf_path in pdf_paths:
         print("Parsing report: {}".format(pdf_path))
         parser.load(pdf_path)

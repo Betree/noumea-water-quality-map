@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import L from "leaflet"
 import _ from "underscore"
 import pegasus from "@typicode/pegasus"
+import Color from "color"
 
 import {default as OsmMap} from "./OsmMap"
 import {default as Legend} from "./Legend"
@@ -13,8 +14,9 @@ const INITIAL_LOCATION =  new L.LatLng(-22.26, 166.45)
 const BOUNDS =            [[-22.33, 166.28], [-22.18, 166.61]]
 const INITIAL_ZOOM =      13
 const DATE_FORMAT =       "";
+const POPUP_HISTORY_TABLE_SIZE = 8;
 
-const STATUSES = ["Aucune donnée", "Bon", "Moyen", "Mauvais", "Nécessite la fermeture de la baignade"]
+const STATUSES = ["Inconnu", "Bon", "Moyen", "Mauvais", "Nécessite la fermeture de la baignade"]
 const [STATUS_OUTDATED, STATUS_GOOD, STATUS_AVERAGE, STATUS_BAD, STATUS_DANGEROUS] = STATUSES
 
 const COLORS = {}
@@ -22,7 +24,14 @@ COLORS[STATUS_GOOD] =       "#00afef",
 COLORS[STATUS_AVERAGE] =    "#00af50",
 COLORS[STATUS_BAD] =        "#e16b09",
 COLORS[STATUS_DANGEROUS] =  "#ff0000",
-COLORS[STATUS_OUTDATED] =   "grey"
+COLORS[STATUS_OUTDATED] =   "#333333"
+
+const STATUSES_ICONS = {}
+STATUSES_ICONS[STATUS_GOOD] =       "images/marker-good.png",
+STATUSES_ICONS[STATUS_AVERAGE] =    "images/marker-average.png",
+STATUSES_ICONS[STATUS_BAD] =        "images/marker-bad.png",
+STATUSES_ICONS[STATUS_DANGEROUS] =  "images/marker-dangerous.png",
+STATUSES_ICONS[STATUS_OUTDATED] =   "images/marker-outdated.png"
 
 export default class NoumeaWaterQualityMap extends React.Component {
   constructor(props) {
@@ -50,7 +59,7 @@ export default class NoumeaWaterQualityMap extends React.Component {
           {this.state.dates &&
             <MonthSlider values={this.state.dates}
               defaultIndex={this.state.dates.length - 1}
-              handleChange={(date) => this.setDate(date)}
+              handleChange={(date) => this.handleDateChange(date)}
             />
           }
         </div>
@@ -58,19 +67,18 @@ export default class NoumeaWaterQualityMap extends React.Component {
     </div>
   }
 
-  setDate(date) {
+  handleDateChange(date) {
     this.selectedDate = date
+    this.updateLayers()
   }
 
   componentDidMount() {
-    const geoJSONParams = {
-      style: (f) => this.getStyle(f)
-    }
-
     this.geoJSONRequest.then(
       (data, xhr) => {
-        this.map.addGeoJson(data, geoJSONParams)
+        const pointToLayer = (pt, pos) => L.marker(pos, {title: pt.properties.name})
+        this.map.addGeoJson(data, {pointToLayer})
         this.setState({dates: this.extractGeoJSONData(data)})
+        this.updateLayers()
       },
       // Error handler
       (data, xhr) => {
@@ -98,9 +106,75 @@ export default class NoumeaWaterQualityMap extends React.Component {
     return new Date(year, month - 1)
   }
 
-  getFeatureData(feature) {
+  updateLayers() {
+    this.map.geoJSONLayer.eachLayer((layer) => {
+      if (layer.feature.geometry.type === "Point")
+        this.updateMarker(layer)
+      //TODO else
+    });
+  }
+
+  updateMarker(marker) {
+    const {properties} = marker.feature
+    const currentData = this.getCurrentData(properties.data)
+    const status = this.getQualityStatus(currentData)
+    const iconUrl = STATUSES_ICONS[status]
+    const icon = L.icon({iconUrl, iconSize: [25, 41], iconAnchor: [12, 40]})
+    marker.setIcon(icon)
+    marker.bindPopup(this.generateMarkerPopup(status, currentData, properties))
+  }
+
+  generateMarkerPopup(status, currentData, {data, name}) {
+    console.log(currentData)
+    return (`<div class="map-popup">
+      <h4>Point ${name}</h4>
+      <p>
+        Le <b>${currentData.date.replace(" ", " à ")}</b> le niveau de pollution
+        pour ce point était <b style="color: ${COLORS[status]};">${status}</b>.
+      </p>
+      <h5>Derniers relevés :</h5>
+
+        ${this.generateHtmlTableForData(currentData, data)}
+      </table>
+      <hr>
+      <a href="data/raw/xxx.pdf">
+        <span class="icon is-small"><i class="fa fa-link"></i></span>
+        Source
+      </a>
+    </div>`)}
+
+  generateHtmlTableForData(currentData, allData) {
+    const dataIdx = _.findLastIndex(allData, currentData)
+    const lines = []
+
+    for (var i = dataIdx; i > dataIdx - POPUP_HISTORY_TABLE_SIZE && i >= 0; i--) {
+      const data = allData[i]
+      const escherichiaColiStatus = this.getEscherichiaColiStatus(data.escherichia_coli)
+      const intestinalEnterococciStatus = this.getIntestinalEnterococciStatus(data.intestinal_enterococci)
+      lines.push(`<tr>
+        <td>${data.date}</td>
+        <td style="color: ${COLORS[escherichiaColiStatus]};">
+          ${data.escherichia_coli}
+        </td>
+        <td style="color: ${COLORS[intestinalEnterococciStatus]};">
+          ${data.intestinal_enterococci}
+        </td>
+      </tr>`)
+    }
+    return `<table class="all-data">
+      <thead>
+        <th>Date du prélèvement</th>
+        <th>Escherichia coli (NPP/100ml)</th>
+        <th>Entérocoques intestinaux (NPP/100ml)</th>
+      <thead>
+      <tbody>
+        ${lines.join('')}
+      </tbody>
+    </table>`
+  }
+
+  getCurrentData(data) {
     // Get latest feature data for selected month
-    const {properties: {data}} = feature
     const lastDataForSelectedMonth = _.findLastIndex(data, ({date}) => {
       const dataYearMonth = this.getYearMonthDateFromFrDatetimeStr(date)
       return this.isSameMonth(dataYearMonth, this.selectedDate)
@@ -112,12 +186,12 @@ export default class NoumeaWaterQualityMap extends React.Component {
     return date1.getYear() === date2.getYear() && date1.getMonth() === date2.getMonth()
   }
 
-  getStyle(feature) {
-    const data = this.getFeatureData(feature)
+  getAreaStyle(feature) {
+    //const data = this.getFeatureData(feature)
     return {
       // Assumes that data is sorted with more recent date at last position
-      fillColor: COLORS[this.getQualityStatus(data)],
-      fillOpacity: 0.8
+      fillColor: COLORS["OUTDATED"],
+      fillOpacity: 0.9
     }
   }
 
@@ -148,4 +222,6 @@ export default class NoumeaWaterQualityMap extends React.Component {
     else if (value > 370) return STATUS_BAD
     else return STATUS_OUTDATED
   }
+
+
 }
