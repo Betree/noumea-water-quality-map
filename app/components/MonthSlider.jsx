@@ -30,6 +30,10 @@ export default class MonthSlider extends React.Component {
   }
 
   indexToDateString(idx) {
+    if (!this.props.values)
+      return ''
+    if (idx === -1)
+      idx = this.props.values.length - 1
     const date = new Date(this.props.values[idx])
     return `${MONTHS[date.getMonth()]} ${date.getFullYear()}`
   }

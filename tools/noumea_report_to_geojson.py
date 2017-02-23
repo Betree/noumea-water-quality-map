@@ -78,9 +78,9 @@ class NoumeaReportParser:
             # If the point is unknown, stop the parsing here but generate
             # a warning if it looks like one
             elif point_name not in self.points_names:
-                if point_name[0] == 'P':
+                if point_name[0] == 'P' and point_name[1] >= '0' and point_name[1] <= '9':
                     print("[WARNING] Point ignored (missing from YAML) : {}"
-                            .format(point_name))
+                            .format(point_name.encode('utf-8', 'ignore')))
                 num_line += 1
 
             # Otherwise parse point data
@@ -108,10 +108,7 @@ class NoumeaReportParser:
         existing_data = next((True for data in
             self.data[location_name][point_name] if data['date'] == date_report
         ), False)
-        if existing_data:
-            print("[WARNING] Trying to parse the same data multiple times for {}"
-                    .format([location_name, point_name, date_report]))
-        else:
+        if not existing_data:
             self.data[location_name][point_name].append({
                 'date': date_report,
                 'escherichia_coli': self.parse_int(lines[num_line + 2]),
@@ -202,7 +199,7 @@ def main():
     # Get PDF files paths
     pdf_dir_files = os.listdir(args.pdf_dir)
     pdf_filenames = filter(lambda fn: fn.endswith(".pdf"), pdf_dir_files)
-    pdf_paths = [os.path.join(args.pdf_dir, fn) for fn in pdf_filenames]
+    pdf_paths = sorted([os.path.join(args.pdf_dir, fn) for fn in pdf_filenames])
 
     # Parse sampling points config
     with open(SAMPLING_POINTS_FILENAME) as sampling_points_file:

@@ -58,6 +58,16 @@
             "escherichia_coli": 30
           }, 
           {
+            "date": "19/12/2016 08:16:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:27:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:28:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
@@ -71,6 +81,31 @@
             "date": "11/01/2017 08:40:00", 
             "intestinal_enterococci": 414, 
             "escherichia_coli": 134
+          }, 
+          {
+            "date": "16/01/2017 08:58:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:32:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:27:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:32:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:36:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
           }
         ], 
         "name": "P18057"
@@ -141,6 +176,16 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "19/12/2016 08:19:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 30
+          }, 
+          {
+            "date": "26/12/2016 08:31:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:31:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 31
@@ -154,6 +199,31 @@
             "date": "11/01/2017 08:44:00", 
             "intestinal_enterococci": 31, 
             "escherichia_coli": 86
+          }, 
+          {
+            "date": "16/01/2017 09:00:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:36:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:30:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
           }
         ], 
         "name": "P18058"
@@ -224,6 +294,16 @@
             "escherichia_coli": 62
           }, 
           {
+            "date": "19/12/2016 08:21:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:34:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 20
+          }, 
+          {
             "date": "02/01/2017 08:33:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 63
@@ -237,6 +317,31 @@
             "date": "11/01/2017 08:46:00", 
             "intestinal_enterococci": 86, 
             "escherichia_coli": 313
+          }, 
+          {
+            "date": "16/01/2017 09:03:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "30/01/2017 08:33:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "20/02/2017 08:42:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
           }
         ], 
         "name": "P26"
@@ -309,6 +414,16 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "19/12/2016 08:41:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:54:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:53:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
@@ -316,6 +431,31 @@
           {
             "date": "09/01/2017 09:12:00", 
             "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/01/2017 09:25:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:56:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:50:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 09:00:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 09:00:00", 
+            "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }
         ], 
@@ -344,12 +484,47 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "19/12/2016 08:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:49:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:48:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 31
           }, 
           {
             "date": "09/01/2017 09:10:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/01/2017 09:20:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:53:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:45:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:55:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:54:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }
@@ -379,12 +554,47 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "19/12/2016 08:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:51:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:50:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 09:08:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/01/2017 09:17:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:50:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:43:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:50:00", 
+            "intestinal_enterococci": 328, 
+            "escherichia_coli": 288
+          }, 
+          {
+            "date": "20/02/2017 08:56:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }
@@ -449,6 +659,21 @@
             "escherichia_coli": 63
           }, 
           {
+            "date": "15/12/2016 10:09:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "22/12/2016 07:40:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "29/12/2016 07:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "05/01/2017 07:42:00", 
             "intestinal_enterococci": 31, 
             "escherichia_coli": 74
@@ -457,6 +682,26 @@
             "date": "12/01/2017 07:50:00", 
             "intestinal_enterococci": 63, 
             "escherichia_coli": 31
+          }, 
+          {
+            "date": "19/01/2017 08:05:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 07:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "02/02/2017 07:50:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/02/2017 07:48:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
           }
         ], 
         "name": "P18048"
@@ -494,6 +739,36 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "15/12/2016 11:41:00", 
+            "intestinal_enterococci": 30, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "19/12/2016 09:28:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "22/12/2016 09:30:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 265
+          }, 
+          {
+            "date": "23/12/2016 09:13:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 09:27:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "29/12/2016 09:30:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 85
+          }, 
+          {
             "date": "02/01/2017 09:35:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 31
@@ -512,6 +787,51 @@
             "date": "12/01/2017 09:35:00", 
             "intestinal_enterococci": 41, 
             "escherichia_coli": 135
+          }, 
+          {
+            "date": "16/01/2017 09:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
+          }, 
+          {
+            "date": "19/01/2017 09:24:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 09:25:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 09:20:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 294
+          }, 
+          {
+            "date": "30/01/2017 09:00:00", 
+            "intestinal_enterococci": 292, 
+            "escherichia_coli": 209
+          }, 
+          {
+            "date": "02/02/2017 09:17:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 228
+          }, 
+          {
+            "date": "13/02/2017 09:13:00", 
+            "intestinal_enterococci": 144, 
+            "escherichia_coli": 441
+          }, 
+          {
+            "date": "16/02/2017 09:17:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "20/02/2017 09:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 51
           }
         ], 
         "name": "P18031"
@@ -584,6 +904,36 @@
             "escherichia_coli": 20
           }, 
           {
+            "date": "15/12/2016 11:30:00", 
+            "intestinal_enterococci": 233, 
+            "escherichia_coli": 556
+          }, 
+          {
+            "date": "19/12/2016 09:13:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "22/12/2016 09:24:00", 
+            "intestinal_enterococci": 109, 
+            "escherichia_coli": 909
+          }, 
+          {
+            "date": "23/12/2016 09:00:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 09:20:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "29/12/2016 09:15:00", 
+            "intestinal_enterococci": 197, 
+            "escherichia_coli": 97
+          }, 
+          {
             "date": "02/01/2017 09:20:00", 
             "intestinal_enterococci": 155, 
             "escherichia_coli": 189
@@ -602,6 +952,51 @@
             "date": "12/01/2017 09:50:00", 
             "intestinal_enterococci": 63, 
             "escherichia_coli": 20
+          }, 
+          {
+            "date": "16/01/2017 09:48:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "19/01/2017 09:44:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 09:34:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 09:26:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 146
+          }, 
+          {
+            "date": "30/01/2017 09:12:00", 
+            "intestinal_enterococci": 74, 
+            "escherichia_coli": 315
+          }, 
+          {
+            "date": "02/02/2017 09:26:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 246
+          }, 
+          {
+            "date": "13/02/2017 09:22:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "16/02/2017 09:30:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "20/02/2017 09:36:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 85
           }
         ], 
         "name": "P18032"
@@ -694,6 +1089,36 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "15/12/2016 11:23:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "19/12/2016 09:00:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "22/12/2016 09:15:00", 
+            "intestinal_enterococci": 30, 
+            "escherichia_coli": 122
+          }, 
+          {
+            "date": "23/12/2016 08:49:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "26/12/2016 09:11:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 51
+          }, 
+          {
+            "date": "29/12/2016 09:05:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 148
+          }, 
+          {
             "date": "02/01/2017 09:10:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
@@ -712,6 +1137,51 @@
             "date": "12/01/2017 09:55:00", 
             "intestinal_enterococci": 122, 
             "escherichia_coli": 74
+          }, 
+          {
+            "date": "16/01/2017 09:58:00", 
+            "intestinal_enterococci": 620, 
+            "escherichia_coli": 794
+          }, 
+          {
+            "date": "19/01/2017 09:55:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 09:15:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 86
+          }, 
+          {
+            "date": "26/01/2017 09:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "30/01/2017 09:20:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "02/02/2017 09:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 09:28:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 121
+          }, 
+          {
+            "date": "16/02/2017 09:35:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "20/02/2017 09:19:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 228
           }
         ], 
         "name": "P18043"
@@ -764,54 +1234,24 @@
       "properties": {
         "data": [
           {
-            "date": "01/12/2016 08:23:00", 
-            "intestinal_enterococci": 146, 
-            "escherichia_coli": 288
+            "date": "23/01/2017 07:56:00", 
+            "intestinal_enterococci": 292, 
+            "escherichia_coli": 327
           }, 
           {
-            "date": "05/12/2016 07:53:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 20
+            "date": "30/01/2017 07:55:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 52
           }, 
           {
-            "date": "08/12/2016 08:15:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "12/12/2016 07:42:00", 
-            "intestinal_enterococci": 364, 
-            "escherichia_coli": 521
-          }, 
-          {
-            "date": "02/01/2017 07:50:00", 
+            "date": "13/02/2017 07:53:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }, 
           {
-            "date": "03/01/2017 07:59:00", 
-            "intestinal_enterococci": 20, 
-            "escherichia_coli": 31
-          }, 
-          {
-            "date": "04/01/2017 08:07:00", 
-            "intestinal_enterococci": 20, 
-            "escherichia_coli": 30
-          }, 
-          {
-            "date": "05/01/2017 08:15:00", 
-            "intestinal_enterococci": 41, 
-            "escherichia_coli": 158
-          }, 
-          {
-            "date": "09/01/2017 07:50:00", 
-            "intestinal_enterococci": 288, 
-            "escherichia_coli": 135
-          }, 
-          {
-            "date": "12/01/2017 08:25:00", 
-            "intestinal_enterococci": 108, 
-            "escherichia_coli": 231
+            "date": "20/02/2017 07:55:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
           }
         ], 
         "name": "P16"
@@ -868,54 +1308,24 @@
       "properties": {
         "data": [
           {
-            "date": "01/12/2016 08:25:00", 
-            "intestinal_enterococci": 110, 
-            "escherichia_coli": 471
+            "date": "23/01/2017 07:58:00", 
+            "intestinal_enterococci": 63, 
+            "escherichia_coli": 73
           }, 
           {
-            "date": "05/12/2016 07:56:00", 
+            "date": "30/01/2017 07:58:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }, 
           {
-            "date": "08/12/2016 08:19:00", 
+            "date": "13/02/2017 07:56:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }, 
           {
-            "date": "12/12/2016 07:46:00", 
-            "intestinal_enterococci": 216, 
-            "escherichia_coli": 146
-          }, 
-          {
-            "date": "02/01/2017 07:53:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 31
-          }, 
-          {
-            "date": "03/01/2017 08:03:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "04/01/2017 08:10:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 75
-          }, 
-          {
-            "date": "05/01/2017 08:20:00", 
-            "intestinal_enterococci": 31, 
-            "escherichia_coli": 74
-          }, 
-          {
-            "date": "09/01/2017 07:54:00", 
+            "date": "20/02/2017 07:59:00", 
             "intestinal_enterococci": 20, 
-            "escherichia_coli": 31
-          }, 
-          {
-            "date": "12/01/2017 08:27:00", 
-            "intestinal_enterococci": 691, 
-            "escherichia_coli": 988
+            "escherichia_coli": 20
           }
         ], 
         "name": "P18050"
@@ -933,54 +1343,24 @@
       "properties": {
         "data": [
           {
-            "date": "01/12/2016 08:27:00", 
-            "intestinal_enterococci": 10, 
+            "date": "23/01/2017 08:03:00", 
+            "intestinal_enterococci": 121, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "30/01/2017 08:00:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 109
+          }, 
+          {
+            "date": "13/02/2017 08:00:00", 
+            "intestinal_enterococci": 52, 
             "escherichia_coli": 20
           }, 
           {
-            "date": "05/12/2016 07:59:00", 
+            "date": "20/02/2017 08:02:00", 
             "intestinal_enterococci": 20, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "08/12/2016 08:28:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "12/12/2016 07:50:00", 
-            "intestinal_enterococci": 171, 
-            "escherichia_coli": 246
-          }, 
-          {
-            "date": "02/01/2017 08:03:00", 
-            "intestinal_enterococci": 381, 
-            "escherichia_coli": 1178
-          }, 
-          {
-            "date": "03/01/2017 08:11:00", 
-            "intestinal_enterococci": 906, 
-            "escherichia_coli": 1789
-          }, 
-          {
-            "date": "04/01/2017 08:20:00", 
-            "intestinal_enterococci": 231, 
-            "escherichia_coli": 670
-          }, 
-          {
-            "date": "05/01/2017 08:34:00", 
-            "intestinal_enterococci": 20, 
-            "escherichia_coli": 41
-          }, 
-          {
-            "date": "09/01/2017 07:56:00", 
-            "intestinal_enterococci": 272, 
-            "escherichia_coli": 228
-          }, 
-          {
-            "date": "12/01/2017 08:30:00", 
-            "intestinal_enterococci": 109, 
-            "escherichia_coli": 305
+            "escherichia_coli": 31
           }
         ], 
         "name": "P18141"
@@ -1057,6 +1437,41 @@
             "escherichia_coli": 414
           }, 
           {
+            "date": "15/12/2016 10:49:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "19/12/2016 07:55:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/12/2016 08:36:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "22/12/2016 08:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/12/2016 08:10:00", 
+            "intestinal_enterococci": 30, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:11:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "29/12/2016 08:25:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:10:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 10
@@ -1080,6 +1495,51 @@
             "date": "12/01/2017 08:42:00", 
             "intestinal_enterococci": 31, 
             "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/01/2017 08:33:00", 
+            "intestinal_enterococci": 74, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "19/01/2017 08:53:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:09:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 08:30:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:08:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "02/02/2017 08:44:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 08:10:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/02/2017 08:40:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:12:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
           }
         ], 
         "name": "P18053"
@@ -1160,6 +1620,41 @@
             "escherichia_coli": 51
           }, 
           {
+            "date": "15/12/2016 10:53:00", 
+            "intestinal_enterococci": 119, 
+            "escherichia_coli": 85
+          }, 
+          {
+            "date": "19/12/2016 07:58:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/12/2016 08:39:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 86
+          }, 
+          {
+            "date": "22/12/2016 08:38:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "23/12/2016 08:14:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 08:14:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "29/12/2016 08:28:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
             "date": "02/01/2017 08:14:00", 
             "intestinal_enterococci": 20, 
             "escherichia_coli": 20
@@ -1182,6 +1677,51 @@
           {
             "date": "12/01/2017 08:45:00", 
             "intestinal_enterococci": 52, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/01/2017 08:37:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "19/01/2017 08:55:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "23/01/2017 08:13:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 08:33:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:10:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "02/02/2017 08:46:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 132
+          }, 
+          {
+            "date": "13/02/2017 08:13:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/02/2017 08:44:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
+          }, 
+          {
+            "date": "20/02/2017 08:16:00", 
+            "intestinal_enterococci": 10, 
             "escherichia_coli": 10
           }
         ], 
@@ -1255,6 +1795,41 @@
             "escherichia_coli": 10
           }, 
           {
+            "date": "15/12/2016 10:55:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 75
+          }, 
+          {
+            "date": "19/12/2016 08:01:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 146
+          }, 
+          {
+            "date": "20/12/2016 08:42:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "22/12/2016 08:42:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/12/2016 08:17:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "26/12/2016 08:17:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "29/12/2016 08:32:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 20
+          }, 
+          {
             "date": "02/01/2017 08:15:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 31
@@ -1278,6 +1853,51 @@
             "date": "12/01/2017 08:50:00", 
             "intestinal_enterococci": 173, 
             "escherichia_coli": 187
+          }, 
+          {
+            "date": "16/01/2017 08:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "19/01/2017 09:00:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 08:16:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 08:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
+          }, 
+          {
+            "date": "30/01/2017 08:13:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 121
+          }, 
+          {
+            "date": "02/02/2017 08:50:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 75
+          }, 
+          {
+            "date": "13/02/2017 08:16:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/02/2017 08:47:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:19:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
           }
         ], 
         "name": "P18055"
@@ -1354,6 +1974,41 @@
             "escherichia_coli": 20
           }, 
           {
+            "date": "15/12/2016 10:59:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 63
+          }, 
+          {
+            "date": "19/12/2016 08:09:00", 
+            "intestinal_enterococci": 2098, 
+            "escherichia_coli": 1376
+          }, 
+          {
+            "date": "20/12/2016 08:50:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 86
+          }, 
+          {
+            "date": "22/12/2016 08:47:00", 
+            "intestinal_enterococci": 173, 
+            "escherichia_coli": 2181
+          }, 
+          {
+            "date": "23/12/2016 08:20:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 97
+          }, 
+          {
+            "date": "26/12/2016 08:22:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
+          }, 
+          {
+            "date": "29/12/2016 08:34:00", 
+            "intestinal_enterococci": 86, 
+            "escherichia_coli": 158
+          }, 
+          {
             "date": "02/01/2017 08:20:00", 
             "intestinal_enterococci": 10, 
             "escherichia_coli": 20
@@ -1377,6 +2032,51 @@
             "date": "12/01/2017 09:00:00", 
             "intestinal_enterococci": 749, 
             "escherichia_coli": 631
+          }, 
+          {
+            "date": "16/01/2017 08:50:00", 
+            "intestinal_enterococci": 206, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "19/01/2017 09:06:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 110
+          }, 
+          {
+            "date": "23/01/2017 08:23:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "26/01/2017 08:46:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "30/01/2017 08:20:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "02/02/2017 08:56:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "13/02/2017 08:22:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "16/02/2017 08:54:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 08:25:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 20
           }
         ], 
         "name": "P18056"

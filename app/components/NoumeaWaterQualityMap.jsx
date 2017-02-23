@@ -14,7 +14,7 @@ const INITIAL_LOCATION =  new L.LatLng(-22.26, 166.45)
 const BOUNDS =            [[-22.33, 166.28], [-22.18, 166.61]]
 const INITIAL_ZOOM =      13
 const DATE_FORMAT =       "";
-const POPUP_HISTORY_TABLE_SIZE = 8;
+const POPUP_HISTORY_TABLE_SIZE = 20;
 
 const STATUSES = ["Inconnu", "Bon", "Moyen", "Mauvais", "Nécessite la fermeture de la baignade"]
 const [STATUS_OUTDATED, STATUS_GOOD, STATUS_AVERAGE, STATUS_BAD, STATUS_DANGEROUS] = STATUSES
@@ -43,7 +43,7 @@ export default class NoumeaWaterQualityMap extends React.Component {
     this.data = null;
     this.selectedDate = new Date()
 
-    this.state = {dates: null}
+    this.state = {dates: []}
   }
 
   render() {
@@ -56,12 +56,10 @@ export default class NoumeaWaterQualityMap extends React.Component {
       <Legend legend={COLORS} isExpanded={true}/>
       <div id="footer">
         <div id="date-select-slider-container">
-          {this.state.dates &&
-            <MonthSlider values={this.state.dates}
-              defaultIndex={this.state.dates.length - 1}
-              handleChange={(date) => this.handleDateChange(date)}
-            />
-          }
+          <MonthSlider values={this.state.dates}
+            defaultIndex={this.state.dates.length - 1}
+            handleChange={(date) => this.handleDateChange(date)}
+          />
         </div>
       </div>
     </div>
