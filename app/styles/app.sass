@@ -48,6 +48,11 @@ html
   .title
     font-weight: bold
 
+.leaflet-marker-icon
+  opacity: 0.85
+  &:hover
+    opacity: 1
+
 #legend
   position: fixed
   right: 5px
@@ -82,3 +87,15 @@ html
 
   p
     margin-bottom: 20px
+
+.leaflet-popup-content
+  .all-data
+    thead tr th:not(:first-child)
+      width: 150px
+  .point-name
+    font-weight: bold
+    text-align: center
+    width: 100%
+    border-bottom: 1px solid lightgrey
+    padding-bottom: 5px
+    margin-bottom: 10px

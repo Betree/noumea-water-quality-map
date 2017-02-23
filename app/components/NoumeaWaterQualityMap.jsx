@@ -110,8 +110,27 @@ export default class NoumeaWaterQualityMap extends React.Component {
     this.map.geoJSONLayer.eachLayer((layer) => {
       if (layer.feature.geometry.type === "Point")
         this.updateMarker(layer)
-      //TODO else
+      else {
+        this.updateArea(layer)
+      }
     });
+  }
+
+  updateArea(area) {
+    const associatedPoints = _.filter(this.map.geoJSONLayer._layers, (l) => {
+      const {geometry: {type}, properties: {name}} = l.feature
+      return type === "Point" && area.feature.properties.points.includes(name)
+    })
+    const statuses = _.map(associatedPoints, (p) => {
+      const currentData = this.getCurrentData(p.feature.properties.data)
+      return STATUSES.indexOf(this.getQualityStatus(currentData))
+    })
+    const worstStatusText = STATUSES[_.max(statuses)]
+    area.setStyle({
+      // Assumes that data is sorted with more recent date at last position
+      fillColor: COLORS[worstStatusText],
+      fillOpacity: 0.9
+    })
   }
 
   updateMarker(marker) {
@@ -121,26 +140,30 @@ export default class NoumeaWaterQualityMap extends React.Component {
     const iconUrl = STATUSES_ICONS[status]
     const icon = L.icon({iconUrl, iconSize: [25, 41], iconAnchor: [12, 40]})
     marker.setIcon(icon)
-    marker.bindPopup(this.generateMarkerPopup(status, currentData, properties))
+    const popupContent = this.generateMarkerPopup(status, currentData, properties)
+
+    var popup;
+    if (!marker._popup) {
+      popup = marker._popup ? marker._popup : L.popup({maxWidth: 450})
+      marker.bindPopup(popup)
+    }
+    else {
+      popup = marker._popup.setContent(popupContent)
+    }
+    popup.setContent(popupContent)
+    popup.update()
   }
 
   generateMarkerPopup(status, currentData, {data, name}) {
-    console.log(currentData)
+    if (currentData === null)
+      return `<div class="map-popup"><h4 class="point-name">Point ${name}</h4>Aucune donnée pour ce point pour le mois sélectionné</div>`
     return (`<div class="map-popup">
-      <h4>Point ${name}</h4>
+      <h4 class="point-name">Point ${name}</h4>
       <p>
         Le <b>${currentData.date.replace(" ", " à ")}</b> le niveau de pollution
         pour ce point était <b style="color: ${COLORS[status]};">${status}</b>.
       </p>
-      <h5>Derniers relevés :</h5>
-
-        ${this.generateHtmlTableForData(currentData, data)}
-      </table>
-      <hr>
-      <a href="data/raw/xxx.pdf">
-        <span class="icon is-small"><i class="fa fa-link"></i></span>
-        Source
-      </a>
+      ${this.generateHtmlTableForData(currentData, data)}
     </div>`)}
 
   generateHtmlTableForData(currentData, allData) {
@@ -177,27 +200,18 @@ export default class NoumeaWaterQualityMap extends React.Component {
     // Get latest feature data for selected month
     const lastDataForSelectedMonth = _.findLastIndex(data, ({date}) => {
       const dataYearMonth = this.getYearMonthDateFromFrDatetimeStr(date)
-      return this.isSameMonth(dataYearMonth, this.selectedDate)
+      return this.isSameMonthOrBefore(dataYearMonth, this.selectedDate)
     })
     return lastDataForSelectedMonth === -1 ? null : data[lastDataForSelectedMonth]
   }
 
-  isSameMonth(date1, date2) {
-    return date1.getYear() === date2.getYear() && date1.getMonth() === date2.getMonth()
-  }
-
-  getAreaStyle(feature) {
-    //const data = this.getFeatureData(feature)
-    return {
-      // Assumes that data is sorted with more recent date at last position
-      fillColor: COLORS["OUTDATED"],
-      fillOpacity: 0.9
-    }
+  isSameMonthOrBefore(date1, date2) {
+    return date1.getYear() <= date2.getYear() && date1.getMonth() <= date2.getMonth()
   }
 
   getQualityStatus(data) {
     if (data === null)
-      return 'OUTDATED'
+      return STATUS_OUTDATED
     // Dangerousity threshold as defined by the DASS (french health comitee)
     // Get status for both bacteria, select the worst status
     const escherichiaColiStatus = this.getEscherichiaColiStatus(data.escherichia_coli)
@@ -222,6 +236,4 @@ export default class NoumeaWaterQualityMap extends React.Component {
     else if (value > 370) return STATUS_BAD
     else return STATUS_OUTDATED
   }
-
-
 }

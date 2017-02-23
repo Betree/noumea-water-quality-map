@@ -28,10 +28,11 @@ OUTPUT_DATETIME_FORMAT = INPUT_DATETIME_FORMAT
 
 
 class NoumeaReportParser:
-    def __init__(self, points_locations_names, points_names):
+    def __init__(self, points_locations_names, points_names, point_names_aliases):
         self.data = {}
         self.points_locations_names = points_locations_names
         self.points_names = points_names
+        self.point_names_aliases = point_names_aliases
 
     def load(self, pdf_path):
         # Export report to XML using pdftohtml
@@ -65,6 +66,10 @@ class NoumeaReportParser:
 
         while num_line in range(num_line, line_count):
             point_name = lines[num_line].split(',')[0]
+            # If point name is an alias (seems like points names changed across
+            # the time) use it's real name instead
+            if point_name in self.point_names_aliases:
+                point_name = self.point_names_aliases[point_name]
 
             # Parse other locations recursively
             if lines[num_line] in self.points_locations_names:
@@ -104,18 +109,21 @@ class NoumeaReportParser:
             self.data[location_name][point_name] if data['date'] == date_report
         ), False)
         if existing_data:
-            print("[WARNING] Tryin to parse the same data multiple times for {}"
+            print("[WARNING] Trying to parse the same data multiple times for {}"
                     .format([location_name, point_name, date_report]))
         else:
             self.data[location_name][point_name].append({
                 'date': date_report,
-                'escherichia_coli': lines[num_line + 2],
-                'intestinal_enterococci': lines[num_line + 3]
+                'escherichia_coli': self.parse_int(lines[num_line + 2]),
+                'intestinal_enterococci': self.parse_int(lines[num_line + 3])
             })
 
         # Get other data recursively
         return self.parse_and_store_point_data(lines, num_line + 4, line_count,
                                         location_name, point_name)
+
+    def parse_int(self, value):
+        return int(value.replace(' ', ''))
 
     def gen_datetime(self, date_string, time_string):
         datetime_string = '{} {}'.format(date_string, time_string)
@@ -128,22 +136,6 @@ class ParsedDataToGeoJSONConverter:
         self.points_config = points_config
 
     def convert(self, data):
-        # for location, points in data.items():
-        #     for point_name, point_data in points.items():
-        #         point = Point(self.points_config[point_name]['location'])
-        #         if 'area' in self.points_config[point_name]: # Area is optional
-        #             area = Polygon([self.points_config[point_name]['area']])
-        #             geometries = GeometryCollection([point, area])
-        #         else:
-        #             geometries = point
-        #         point_properties = {
-        #             'name': point_name,
-        #             'data': self.convert_dates_to_strings(
-        #                 self.sort_data_by_date(point_data)
-        #             )
-        #         }
-        #         feat = Feature(geometry=geometries, properties=point_properties)
-        #         features.append(feat)
         features = []
         for points_info in self.points_config:
             # Generate area feature
@@ -217,10 +209,17 @@ def main():
         full_config = yaml.safe_load(sampling_points_file)
         points_locations_names = full_config.keys()
         points_config = [val for sublist in full_config.values() for val in sublist]
-        points_names = [name for e in points_config for name in e['points'].keys() ]
+        points_names = [name for e in points_config for name in e['points'].keys()]
+        # Extract points aliases
+        point_names_aliases = {}
+        for p in points_config:
+            if 'points_aliases' not in p:
+                continue
+            for alias, real_name in p['points_aliases'].items():
+                point_names_aliases[alias] = real_name
 
     # Parse reports
-    parser = NoumeaReportParser(points_locations_names, points_names)
+    parser = NoumeaReportParser(points_locations_names, points_names, point_names_aliases)
     for pdf_path in pdf_paths:
         print("Parsing report: {}".format(pdf_path))
         parser.load(pdf_path)
