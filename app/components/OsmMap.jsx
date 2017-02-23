@@ -22,15 +22,16 @@ export default class OsmMap extends React.Component {
     window.addEventListener("resize", this.resetHeight.bind(this));
 
     // Initialize map
+    const {minZoom, initialZoom, initialLocation, bounds} = this.props
     this.map = L.map(MAP_ID);
     var osm = new L.TileLayer(OSM_URL, {
-      minZoom: 13,
+      minZoom: minZoom,
       maxZoom: 18,
       attribution: OSM_ATTRIB
     })
-    this.map.setView(this.props.initialLocation, this.props.initialZoom)
-    if (this.props.bounds != null)
-      this.map.setMaxBounds(this.props.bounds);
+    this.map.setView(initialLocation, initialZoom)
+    if (bounds != null)
+      this.map.setMaxBounds(bounds);
     this.map.addLayer(osm);
   }
 
@@ -56,5 +57,6 @@ OsmMap.defaultProps = {
   initialZoom: 1,
   bounds: [[-22.33, 166.28], [-22.18, 166.61]],
   geoJSON: null,
-  geoJSONParams: {}
+  geoJSONParams: {},
+  minZoom: 1
 }

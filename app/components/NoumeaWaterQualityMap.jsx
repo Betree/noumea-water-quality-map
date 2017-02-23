@@ -10,9 +10,9 @@ import {default as Legend} from "./Legend"
 import {default as MonthSlider} from "./MonthSlider"
 
 const GEOJSON_FILE =      "data/geojson/simple.geojson"
-const INITIAL_LOCATION =  new L.LatLng(-22.26, 166.45)
-const BOUNDS =            [[-22.33, 166.28], [-22.18, 166.61]]
-const INITIAL_ZOOM =      13
+const INITIAL_LOCATION =  new L.LatLng(-22.285, 166.45)
+const BOUNDS =            [[-22.35, 166.28], [-22.20, 166.61]]
+const INITIAL_ZOOM =      14
 const DATE_FORMAT =       "";
 const POPUP_HISTORY_TABLE_SIZE = 20;
 
@@ -49,7 +49,7 @@ export default class NoumeaWaterQualityMap extends React.Component {
   render() {
     return <div>
       <OsmMap initialLocation={INITIAL_LOCATION} initialZoom={INITIAL_ZOOM}
-        boundToStartRegion={true} bounds={BOUNDS}
+        bounds={BOUNDS} minZoom={INITIAL_ZOOM}
         ref={(map) => {this.map = map}}
         initialMonth={new Date()}
         />
