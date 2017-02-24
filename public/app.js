@@ -362,7 +362,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var SHARING_ENCODED = "https%3A%2F%2Fgoo.gl%2FJLV7jz%20Une%20map%20de%20la%20qualit%C3%A9%20de%20l%27eau%20des%20plages%20pour%20Noum%C3%A9a%20%F0%9F%87%B3%F0%9F%87%A8%F0%9F%90%99%F0%9F%90%AC%F0%9F%8F%8A";
+var SHARING_ENCODED = "https%3A%2F%2Fgoo.gl%2FWSQOeG%20Une%20map%20de%20la%20qualit%C3%A9%20de%20l%27eau%20des%20plages%20pour%20Noum%C3%A9a%20%F0%9F%87%B3%F0%9F%87%A8%F0%9F%90%99%F0%9F%90%AC%F0%9F%8F%8A";
 
 var NavMenu = function (_React$Component) {
   _inherits(NavMenu, _React$Component);
@@ -457,7 +457,7 @@ var NavMenu = function (_React$Component) {
             ),
             _react2.default.createElement(
               "a",
-              { target: "_blank", className: "button is-small", href: "https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/JLV7jz" },
+              { target: "_blank", className: "button is-small", href: "https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/WSQOeG" },
               _react2.default.createElement(
                 "span",
                 null,
