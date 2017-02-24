@@ -38,24 +38,21 @@ export default class NavMenu extends React.Component {
 
             <div className="nav-right nav-menu">
               <span className="nav-item">
+                <a className="button is-small" href="https://github.com/Betree/noumea-water-quality-map">
+                  <span className="icon is-small">
+                    🐙
+                  </span>
+                  <span>Fork</span>
+                </a>
                 <a className="button is-small"
                   href={`https://twitter.com/intent/tweet?text=${SHARING_ENCODED}`}>
                   <span className="icon is-small">
-                    <i className="fa fa-twitter"></i>
+                    🐥
                   </span>
                   <span>Tweet</span>
                 </a>
                 <a className="button is-small" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/JLV7jz">
-                  <span className="icon is-small">
-                    <i className="fa fa-facebook"></i>
-                  </span>
-                  <span>Share</span>
-                </a>
-                <a className="button is-small" href="https://github.com/Betree/noumea-water-quality-map">
-                  <span className="icon is-small">
-                    <i className="fa fa-github"></i>
-                  </span>
-                  <span>Fork</span>
+                  <span>Share on Facebook</span>
                 </a>
               </span>
             </div>

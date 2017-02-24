@@ -15,7 +15,6 @@
     "@typicode/pegasus": "^0.3.5",
     "babel-standalone": "^6.21.1",
     "bulma": "^0.3.0",
-    "font-awesome": "^4.7.0",
     "leaflet": "^1.0.2",
     "moment": "^2.17.1",
     "react": "^15.4.2",
