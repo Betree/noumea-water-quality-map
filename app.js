@@ -428,7 +428,7 @@ var NavMenu = function (_React$Component) {
             { className: "nav-item" },
             _react2.default.createElement(
               "a",
-              { className: "button is-small", href: "https://github.com/Betree/noumea-water-quality-map" },
+              { target: "_blank", className: "button is-small", href: "https://github.com/Betree/noumea-water-quality-map" },
               _react2.default.createElement(
                 "span",
                 { className: "icon is-small" },
@@ -442,7 +442,7 @@ var NavMenu = function (_React$Component) {
             ),
             _react2.default.createElement(
               "a",
-              { className: "button is-small",
+              { target: "_blank", className: "button is-small",
                 href: "https://twitter.com/intent/tweet?text=" + SHARING_ENCODED },
               _react2.default.createElement(
                 "span",
@@ -457,7 +457,7 @@ var NavMenu = function (_React$Component) {
             ),
             _react2.default.createElement(
               "a",
-              { className: "button is-small", href: "https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/JLV7jz" },
+              { target: "_blank", className: "button is-small", href: "https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/JLV7jz" },
               _react2.default.createElement(
                 "span",
                 null,
@@ -535,6 +535,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var GEOJSON_FILE = "data/geojson/simple.geojson";
+var BASE_SOURCE_URL = "https://github.com/Betree/noumea-water-quality-map/blob/gh-pages/data/raw/";
 var INITIAL_LOCATION = new _leaflet2.default.LatLng(-22.285, 166.45);
 var BOUNDS = [[-22.35, 166.28], [-22.20, 166.61]];
 var INITIAL_ZOOM = 14;
@@ -733,7 +734,7 @@ var NoumeaWaterQualityMap = function (_React$Component) {
           name = _ref.name;
 
       if (currentData === null) return "<div class=\"map-popup\"><h4 class=\"point-name\">Point " + name + "</h4>Aucune donn\xE9e pour ce point pour le mois s\xE9lectionn\xE9</div>";
-      return "<div class=\"map-popup\">\n      <h4 class=\"point-name\">Point " + name + "</h4>\n      <p>\n        Le <b>" + currentData.date.format(PRETTY_DATE_FORMAT) + "</b> le niveau de pollution\n        pour ce point \xE9tait : <b style=\"color: " + COLORS[status] + ";\">" + status + "</b>\n      </p>\n      " + this.generateHtmlTableForData(currentData, data) + "\n    </div>";
+      return "<div class=\"map-popup\">\n      <h4 class=\"point-name\">Point " + name + "</h4>\n      <p>\n        Le <b>" + currentData.date.format(PRETTY_DATE_FORMAT) + "</b> le niveau de pollution\n        pour ce point \xE9tait : <b style=\"color: " + COLORS[status] + ";\">" + status + "</b>\n      </p>\n      " + this.generateHtmlTableForData(currentData, data) + "\n      <hr>\n      <a target=\"_blank\" href=\"" + (BASE_SOURCE_URL + currentData.source_file) + "\">\n        <span class=\"icon is-small\">\uD83D\uDD17</span>\n        Source\n      </a>\n    </div>";
     }
   }, {
     key: "generateHtmlTableForData",

@@ -50,61 +50,73 @@
           {
             "date": "05/12/2016 08:26:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:24:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 30
           }, 
           {
             "date": "19/12/2016 08:16:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:27:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:28:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 08:50:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 121
           }, 
           {
             "date": "11/01/2017 08:40:00", 
             "intestinal_enterococci": 414, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 134
           }, 
           {
             "date": "16/01/2017 08:58:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:32:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:27:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:32:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:36:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -168,61 +180,73 @@
           {
             "date": "05/12/2016 08:30:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:27:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/12/2016 08:19:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 30
           }, 
           {
             "date": "26/12/2016 08:31:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:31:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "09/01/2017 08:52:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "11/01/2017 08:44:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 86
           }, 
           {
             "date": "16/01/2017 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:36:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:30:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:35:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -286,61 +310,73 @@
           {
             "date": "05/12/2016 08:32:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:30:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 62
           }, 
           {
             "date": "19/12/2016 08:21:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:34:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "02/01/2017 08:33:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "09/01/2017 09:04:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "11/01/2017 08:46:00", 
             "intestinal_enterococci": 86, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 313
           }, 
           {
             "date": "16/01/2017 09:03:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "30/01/2017 08:33:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "20/02/2017 08:42:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -406,56 +442,67 @@
           {
             "date": "05/12/2016 08:49:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:45:00", 
             "intestinal_enterococci": 134, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/12/2016 08:41:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:54:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:53:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 09:12:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/01/2017 09:25:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:56:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:50:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -476,56 +523,67 @@
           {
             "date": "05/12/2016 08:44:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/12/2016 08:35:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:49:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:48:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "09/01/2017 09:10:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/01/2017 09:20:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:53:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:45:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:55:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:54:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -546,56 +604,67 @@
           {
             "date": "05/12/2016 08:46:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "12/12/2016 08:42:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/12/2016 08:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:51:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:50:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 09:08:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/01/2017 09:17:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:50:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:43:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:50:00", 
             "intestinal_enterococci": 328, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 288
           }, 
           {
             "date": "20/02/2017 08:56:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -651,56 +720,67 @@
           {
             "date": "01/12/2016 07:49:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "08/12/2016 07:44:00", 
             "intestinal_enterococci": 301, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "15/12/2016 10:09:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "22/12/2016 07:40:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "29/12/2016 07:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "05/01/2017 07:42:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 74
           }, 
           {
             "date": "12/01/2017 07:50:00", 
             "intestinal_enterococci": 63, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "19/01/2017 08:05:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 07:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/02/2017 07:50:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/02/2017 07:48:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -756,116 +836,139 @@
           {
             "date": "01/12/2016 09:09:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 226
           }, 
           {
             "date": "05/12/2016 09:19:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "08/12/2016 09:28:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "12/12/2016 09:15:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "15/12/2016 11:30:00", 
             "intestinal_enterococci": 233, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 556
           }, 
           {
             "date": "19/12/2016 09:13:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "22/12/2016 09:24:00", 
             "intestinal_enterococci": 109, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 909
           }, 
           {
             "date": "23/12/2016 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 09:20:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "29/12/2016 09:15:00", 
             "intestinal_enterococci": 197, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 97
           }, 
           {
             "date": "02/01/2017 09:20:00", 
             "intestinal_enterococci": 155, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 189
           }, 
           {
             "date": "05/01/2017 09:31:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 09:46:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "12/01/2017 09:50:00", 
             "intestinal_enterococci": 63, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "16/01/2017 09:48:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "19/01/2017 09:44:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 09:34:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 09:26:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 146
           }, 
           {
             "date": "30/01/2017 09:12:00", 
             "intestinal_enterococci": 74, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 315
           }, 
           {
             "date": "02/02/2017 09:26:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 246
           }, 
           {
             "date": "13/02/2017 09:22:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "16/02/2017 09:30:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "20/02/2017 09:36:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 85
           }
         ], 
@@ -942,116 +1045,139 @@
           {
             "date": "01/12/2016 09:10:00", 
             "intestinal_enterococci": 1483, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 556
           }, 
           {
             "date": "05/12/2016 09:10:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "08/12/2016 09:16:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "12/12/2016 09:05:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "15/12/2016 11:23:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "19/12/2016 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "22/12/2016 09:15:00", 
             "intestinal_enterococci": 30, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 122
           }, 
           {
             "date": "23/12/2016 08:49:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "26/12/2016 09:11:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 51
           }, 
           {
             "date": "29/12/2016 09:05:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 148
           }, 
           {
             "date": "02/01/2017 09:10:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "05/01/2017 09:22:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "09/01/2017 09:47:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "12/01/2017 09:55:00", 
             "intestinal_enterococci": 122, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 74
           }, 
           {
             "date": "16/01/2017 09:58:00", 
             "intestinal_enterococci": 620, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 794
           }, 
           {
             "date": "19/01/2017 09:55:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 09:15:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 86
           }, 
           {
             "date": "26/01/2017 09:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "30/01/2017 09:20:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/02/2017 09:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 09:28:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 121
           }, 
           {
             "date": "16/02/2017 09:35:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "20/02/2017 09:19:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 228
           }
         ], 
@@ -1072,116 +1198,139 @@
           {
             "date": "01/12/2016 09:04:00", 
             "intestinal_enterococci": 1376, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 323
           }, 
           {
             "date": "05/12/2016 09:25:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "08/12/2016 09:36:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 09:30:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "15/12/2016 11:41:00", 
             "intestinal_enterococci": 30, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/12/2016 09:28:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "22/12/2016 09:30:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 265
           }, 
           {
             "date": "23/12/2016 09:13:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 09:27:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "29/12/2016 09:30:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 85
           }, 
           {
             "date": "02/01/2017 09:35:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "05/01/2017 09:36:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 09:44:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/01/2017 09:35:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 135
           }, 
           {
             "date": "16/01/2017 09:35:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "19/01/2017 09:24:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 09:25:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 09:20:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 294
           }, 
           {
             "date": "30/01/2017 09:00:00", 
             "intestinal_enterococci": 292, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 209
           }, 
           {
             "date": "02/02/2017 09:17:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 228
           }, 
           {
             "date": "13/02/2017 09:13:00", 
             "intestinal_enterococci": 144, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 441
           }, 
           {
             "date": "16/02/2017 09:17:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "20/02/2017 09:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 51
           }
         ], 
@@ -1237,21 +1386,25 @@
           {
             "date": "23/01/2017 07:56:00", 
             "intestinal_enterococci": 292, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 327
           }, 
           {
             "date": "30/01/2017 07:55:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "13/02/2017 07:53:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 07:55:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }
         ], 
@@ -1312,21 +1465,25 @@
           {
             "date": "23/01/2017 08:03:00", 
             "intestinal_enterococci": 121, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "30/01/2017 08:00:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 109
           }, 
           {
             "date": "13/02/2017 08:00:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "20/02/2017 08:02:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }
         ], 
@@ -1347,21 +1504,25 @@
           {
             "date": "23/01/2017 07:58:00", 
             "intestinal_enterococci": 63, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 73
           }, 
           {
             "date": "30/01/2017 07:58:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 07:56:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 07:59:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }
         ], 
@@ -1421,126 +1582,151 @@
           {
             "date": "01/12/2016 08:33:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "05/12/2016 08:07:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "08/12/2016 08:32:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:00:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 414
           }, 
           {
             "date": "15/12/2016 10:49:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "19/12/2016 07:55:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/12/2016 08:36:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "22/12/2016 08:35:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/12/2016 08:10:00", 
             "intestinal_enterococci": 30, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:11:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "29/12/2016 08:25:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:10:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "05/01/2017 08:38:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "06/01/2017 08:20:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 08:22:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 146
           }, 
           {
             "date": "12/01/2017 08:42:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/01/2017 08:33:00", 
             "intestinal_enterococci": 74, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/01/2017 08:53:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:09:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 08:30:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:08:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/02/2017 08:44:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "13/02/2017 08:10:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/02/2017 08:40:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:12:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }
         ], 
@@ -1604,126 +1790,151 @@
           {
             "date": "01/12/2016 08:35:00", 
             "intestinal_enterococci": 86, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 98
           }, 
           {
             "date": "05/12/2016 08:11:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "08/12/2016 08:36:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:04:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 51
           }, 
           {
             "date": "15/12/2016 10:53:00", 
             "intestinal_enterococci": 119, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 85
           }, 
           {
             "date": "19/12/2016 07:58:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/12/2016 08:39:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 86
           }, 
           {
             "date": "22/12/2016 08:38:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "23/12/2016 08:14:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/12/2016 08:14:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "29/12/2016 08:28:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/01/2017 08:14:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "05/01/2017 08:40:00", 
             "intestinal_enterococci": 173, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 399
           }, 
           {
             "date": "06/01/2017 08:24:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 08:26:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 96
           }, 
           {
             "date": "12/01/2017 08:45:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/01/2017 08:37:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "19/01/2017 08:55:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "23/01/2017 08:13:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 08:33:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:10:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "02/02/2017 08:46:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 132
           }, 
           {
             "date": "13/02/2017 08:13:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/02/2017 08:44:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "20/02/2017 08:16:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }
         ], 
@@ -1779,126 +1990,151 @@
           {
             "date": "01/12/2016 08:40:00", 
             "intestinal_enterococci": 96, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 97
           }, 
           {
             "date": "05/12/2016 08:14:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "08/12/2016 08:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "12/12/2016 08:07:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "15/12/2016 10:55:00", 
             "intestinal_enterococci": 52, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 75
           }, 
           {
             "date": "19/12/2016 08:01:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 146
           }, 
           {
             "date": "20/12/2016 08:42:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "22/12/2016 08:42:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/12/2016 08:17:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "26/12/2016 08:17:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "29/12/2016 08:32:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "02/01/2017 08:15:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "05/01/2017 08:43:00", 
             "intestinal_enterococci": 30, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 122
           }, 
           {
             "date": "06/01/2017 08:29:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "09/01/2017 08:34:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 836
           }, 
           {
             "date": "12/01/2017 08:50:00", 
             "intestinal_enterococci": 173, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 187
           }, 
           {
             "date": "16/01/2017 08:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/01/2017 09:00:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "23/01/2017 08:16:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "26/01/2017 08:40:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "30/01/2017 08:13:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 121
           }, 
           {
             "date": "02/02/2017 08:50:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 75
           }, 
           {
             "date": "13/02/2017 08:16:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/02/2017 08:47:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:19:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }
         ], 
@@ -1958,126 +2194,151 @@
           {
             "date": "01/12/2016 08:47:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 75
           }, 
           {
             "date": "05/12/2016 08:21:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161206_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 31
           }, 
           {
             "date": "08/12/2016 08:46:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161209_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "12/12/2016 08:14:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161213_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "15/12/2016 10:59:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "161216_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 63
           }, 
           {
             "date": "19/12/2016 08:09:00", 
             "intestinal_enterococci": 2098, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 1376
           }, 
           {
             "date": "20/12/2016 08:50:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 86
           }, 
           {
             "date": "22/12/2016 08:47:00", 
             "intestinal_enterococci": 173, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 2181
           }, 
           {
             "date": "23/12/2016 08:20:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 97
           }, 
           {
             "date": "26/12/2016 08:22:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "161227_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "29/12/2016 08:34:00", 
             "intestinal_enterococci": 86, 
+            "source_file": "161230_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 158
           }, 
           {
             "date": "02/01/2017 08:20:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170104_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }, 
           {
             "date": "05/01/2017 08:50:00", 
             "intestinal_enterococci": 714, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 3076
           }, 
           {
             "date": "06/01/2017 08:35:00", 
             "intestinal_enterococci": 20, 
+            "source_file": "170107_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "09/01/2017 08:38:00", 
             "intestinal_enterococci": 199, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 627
           }, 
           {
             "date": "12/01/2017 09:00:00", 
             "intestinal_enterococci": 749, 
+            "source_file": "170113_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 631
           }, 
           {
             "date": "16/01/2017 08:50:00", 
             "intestinal_enterococci": 206, 
+            "source_file": "170118_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "19/01/2017 09:06:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170120_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 110
           }, 
           {
             "date": "23/01/2017 08:23:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170124_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 52
           }, 
           {
             "date": "26/01/2017 08:46:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170127_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "30/01/2017 08:20:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170131_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "02/02/2017 08:56:00", 
             "intestinal_enterococci": 41, 
+            "source_file": "170203_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 41
           }, 
           {
             "date": "13/02/2017 08:22:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170214_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "16/02/2017 08:54:00", 
             "intestinal_enterococci": 31, 
+            "source_file": "170217_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 10
           }, 
           {
             "date": "20/02/2017 08:25:00", 
             "intestinal_enterococci": 10, 
+            "source_file": "170221_-_resultats_surveillance_ebm.pdf", 
             "escherichia_coli": 20
           }
         ], 
