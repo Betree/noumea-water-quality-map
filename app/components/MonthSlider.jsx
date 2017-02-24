@@ -1,8 +1,5 @@
 import React from "react"
 
-const MONTHS = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet',
-  'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
-]
 
 export default class MonthSlider extends React.Component {
   constructor(props) {
@@ -11,14 +8,23 @@ export default class MonthSlider extends React.Component {
     this.onChange = this.onChange.bind(this)
 
     this.input = null;
-    this.state = {currentValue: this.props.defaultIndex}
+    const idx = this.props.defaultIndex < 0 ? 0 : this.props.defaultIndex
+    this.state = {currentValue: idx}
+  }
+
+  componentDidUpdate(oldProps) {
+    if (oldProps.values != this.props.values)
+      this.setState({currentValue: this.props.values.length - 1})
   }
 
   render() {
     return (
       <div>
-        <input type="range" defaultValue={this.props.currentValue}
-          min="0" max={this.props.values.length - 1}
+        <input
+          type="range"
+          value={this.state.currentValue}
+          min="0"
+          max={this.props.values.length - 1}
           onChange={this.onChange}
           ref={(ref) => this.input = ref}
         />
@@ -30,12 +36,9 @@ export default class MonthSlider extends React.Component {
   }
 
   indexToDateString(idx) {
-    if (!this.props.values)
+    if (!this.props.values || !this.props.values[idx])
       return ''
-    if (idx === -1)
-      idx = this.props.values.length - 1
-    const date = new Date(this.props.values[idx])
-    return `${MONTHS[date.getMonth()]} ${date.getFullYear()}`
+    return this.props.values[idx].format('D MMMM YYYY')
   }
 
   onChange() {

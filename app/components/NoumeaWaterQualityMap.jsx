@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import L from "leaflet"
 import _ from "underscore"
+import moment from "moment"
 import pegasus from "@typicode/pegasus"
 import Color from "color"
 
@@ -13,8 +14,8 @@ const GEOJSON_FILE =      "data/geojson/simple.geojson"
 const INITIAL_LOCATION =  new L.LatLng(-22.285, 166.45)
 const BOUNDS =            [[-22.35, 166.28], [-22.20, 166.61]]
 const INITIAL_ZOOM =      14
-const DATE_FORMAT =       "";
-const POPUP_HISTORY_TABLE_SIZE = 20;
+const DATE_FORMAT =       "DD/MM/YYYY HH:mm:ss"
+const PRETTY_DATE_FORMAT = "DD/MM/YYYY à HH:mm:ss"
 
 const STATUSES = ["Inconnu", "Bon", "Moyen", "Mauvais", "Nécessite la fermeture de la baignade"]
 const [STATUS_OUTDATED, STATUS_GOOD, STATUS_AVERAGE, STATUS_BAD, STATUS_DANGEROUS] = STATUSES
@@ -73,9 +74,23 @@ export default class NoumeaWaterQualityMap extends React.Component {
   componentDidMount() {
     this.geoJSONRequest.then(
       (data, xhr) => {
+        // Convert all dates to date objects and store them
+        const reportDates = []
+        for (var {properties} of data.features) {
+          if (properties.data) {
+            _.each(properties.data, (d) => {
+              d.date = moment(d.date, DATE_FORMAT)
+              if (!_.find(reportDates, (date) => date.isSame(d.date, 'day')))
+                reportDates.push(d.date)
+            })
+          }
+        }
+        reportDates.sort((a,b) => a.diff(b))
+
+        // Add GeoJSON to map and initialize it
         const pointToLayer = (pt, pos) => L.marker(pos, {title: pt.properties.name})
         this.map.addGeoJson(data, {pointToLayer})
-        this.setState({dates: this.extractGeoJSONData(data)})
+        this.setState({dates: reportDates})
         this.updateLayers()
       },
       // Error handler
@@ -83,25 +98,6 @@ export default class NoumeaWaterQualityMap extends React.Component {
         console.log(data)
       }
     );
-  }
-
-  extractGeoJSONData(data) {
-    // Extract all dates
-    var dates = new Set()
-    for (var feature of data.features) {
-      _.each(feature.properties.data, (d) =>
-        dates.add(this.getYearMonthDateFromFrDatetimeStr(d.date).getTime())
-      )
-    }
-    // Convert & Sort them
-    dates = Array.from(dates).sort()
-    return _.map(dates, (d) => new Date(d))
-  }
-
-  getYearMonthDateFromFrDatetimeStr(datetimeStr) {
-    const [dateStr] = datetimeStr.split(' ')
-    const [day, month, year] = dateStr.split('/')
-    return new Date(year, month - 1)
   }
 
   updateLayers() {
@@ -123,6 +119,7 @@ export default class NoumeaWaterQualityMap extends React.Component {
       const currentData = this.getCurrentData(p.feature.properties.data)
       return STATUSES.indexOf(this.getQualityStatus(currentData))
     })
+
     const worstStatusText = STATUSES[_.max(statuses)]
     area.setStyle({
       // Assumes that data is sorted with more recent date at last position
@@ -158,8 +155,8 @@ export default class NoumeaWaterQualityMap extends React.Component {
     return (`<div class="map-popup">
       <h4 class="point-name">Point ${name}</h4>
       <p>
-        Le <b>${currentData.date.replace(" ", " à ")}</b> le niveau de pollution
-        pour ce point était <b style="color: ${COLORS[status]};">${status}</b>.
+        Le <b>${currentData.date.format(PRETTY_DATE_FORMAT)}</b> le niveau de pollution
+        pour ce point était : <b style="color: ${COLORS[status]};">${status}</b>
       </p>
       ${this.generateHtmlTableForData(currentData, data)}
     </div>`)}
@@ -168,12 +165,15 @@ export default class NoumeaWaterQualityMap extends React.Component {
     const dataIdx = _.findLastIndex(allData, currentData)
     const lines = []
 
-    for (var i = dataIdx; i > dataIdx - POPUP_HISTORY_TABLE_SIZE && i >= 0; i--) {
-      const data = allData[i]
+    for (var data of _.filter(allData, (d) => d.date.isSame(currentData.date, 'month'))) {
       const escherichiaColiStatus = this.getEscherichiaColiStatus(data.escherichia_coli)
       const intestinalEnterococciStatus = this.getIntestinalEnterococciStatus(data.intestinal_enterococci)
+      const prettyDate = data.date.isSame(currentData.date, 'day') ?
+        `<b>${data.date.format(DATE_FORMAT)}</b>` :
+        data.date.format(DATE_FORMAT)
+
       lines.push(`<tr>
-        <td>${data.date}</td>
+        <td>${prettyDate}</td>
         <td style="color: ${COLORS[escherichiaColiStatus]};">
           ${data.escherichia_coli}
         </td>
@@ -197,14 +197,9 @@ export default class NoumeaWaterQualityMap extends React.Component {
   getCurrentData(data) {
     // Get latest feature data for selected month
     const lastDataForSelectedMonth = _.findLastIndex(data, ({date}) => {
-      const dataYearMonth = this.getYearMonthDateFromFrDatetimeStr(date)
-      return this.isSameMonthOrBefore(dataYearMonth, this.selectedDate)
+      return date.isSameOrBefore(this.selectedDate, 'day')
     })
     return lastDataForSelectedMonth === -1 ? null : data[lastDataForSelectedMonth]
-  }
-
-  isSameMonthOrBefore(date1, date2) {
-    return date1.getYear() <= date2.getYear() && date1.getMonth() <= date2.getMonth()
   }
 
   getQualityStatus(data) {

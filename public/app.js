@@ -239,7 +239,7 @@ exports.default = Legend;
 });
 
 require.register("components/MonthSlider.jsx", function(exports, require, module) {
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -247,7 +247,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -258,8 +258,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MONTHS = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
 
 var MonthSlider = function (_React$Component) {
   _inherits(MonthSlider, _React$Component);
@@ -272,42 +270,49 @@ var MonthSlider = function (_React$Component) {
     _this.onChange = _this.onChange.bind(_this);
 
     _this.input = null;
-    _this.state = { currentValue: _this.props.defaultIndex };
+    var idx = _this.props.defaultIndex < 0 ? 0 : _this.props.defaultIndex;
+    _this.state = { currentValue: idx };
     return _this;
   }
 
   _createClass(MonthSlider, [{
-    key: 'render',
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(oldProps) {
+      if (oldProps.values != this.props.values) this.setState({ currentValue: this.props.values.length - 1 });
+    }
+  }, {
+    key: "render",
     value: function render() {
       var _this2 = this;
 
       return _react2.default.createElement(
-        'div',
+        "div",
         null,
-        _react2.default.createElement('input', { type: 'range', defaultValue: this.props.currentValue,
-          min: '0', max: this.props.values.length - 1,
+        _react2.default.createElement("input", {
+          type: "range",
+          value: this.state.currentValue,
+          min: "0",
+          max: this.props.values.length - 1,
           onChange: this.onChange,
           ref: function ref(_ref) {
             return _this2.input = _ref;
           }
         }),
         _react2.default.createElement(
-          'span',
-          { className: 'title is-5' },
+          "span",
+          { className: "title is-5" },
           this.indexToDateString(this.state.currentValue)
         )
       );
     }
   }, {
-    key: 'indexToDateString',
+    key: "indexToDateString",
     value: function indexToDateString(idx) {
-      if (!this.props.values) return '';
-      if (idx === -1) idx = this.props.values.length - 1;
-      var date = new Date(this.props.values[idx]);
-      return MONTHS[date.getMonth()] + ' ' + date.getFullYear();
+      if (!this.props.values || !this.props.values[idx]) return '';
+      return this.props.values[idx].format('D MMMM YYYY');
     }
   }, {
-    key: 'onChange',
+    key: "onChange",
     value: function onChange() {
       this.setState({ currentValue: this.input.value });
       var _props = this.props,
@@ -484,8 +489,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = require("react");
@@ -503,6 +506,10 @@ var _leaflet2 = _interopRequireDefault(_leaflet);
 var _underscore = require("underscore");
 
 var _underscore2 = _interopRequireDefault(_underscore);
+
+var _moment = require("moment");
+
+var _moment2 = _interopRequireDefault(_moment);
 
 var _pegasus = require("@typicode/pegasus");
 
@@ -536,8 +543,8 @@ var GEOJSON_FILE = "data/geojson/simple.geojson";
 var INITIAL_LOCATION = new _leaflet2.default.LatLng(-22.285, 166.45);
 var BOUNDS = [[-22.35, 166.28], [-22.20, 166.61]];
 var INITIAL_ZOOM = 14;
-var DATE_FORMAT = "";
-var POPUP_HISTORY_TABLE_SIZE = 20;
+var DATE_FORMAT = "DD/MM/YYYY HH:mm:ss";
+var PRETTY_DATE_FORMAT = "DD/MM/YYYY à HH:mm:ss";
 
 var STATUSES = ["Inconnu", "Bon", "Moyen", "Mauvais", "Nécessite la fermeture de la baignade"];
 var STATUS_OUTDATED = STATUSES[0],
@@ -616,11 +623,50 @@ var NoumeaWaterQualityMap = function (_React$Component) {
       var _this3 = this;
 
       this.geoJSONRequest.then(function (data, xhr) {
+        // Convert all dates to date objects and store them
+        var reportDates = [];
+        var _iteratorNormalCompletion = true;
+        var _didIteratorError = false;
+        var _iteratorError = undefined;
+
+        try {
+          for (var _iterator = data.features[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+            var properties = _step.value.properties;
+
+            if (properties.data) {
+              _underscore2.default.each(properties.data, function (d) {
+                d.date = (0, _moment2.default)(d.date, DATE_FORMAT);
+                if (!_underscore2.default.find(reportDates, function (date) {
+                  return date.isSame(d.date, 'day');
+                })) reportDates.push(d.date);
+              });
+            }
+          }
+        } catch (err) {
+          _didIteratorError = true;
+          _iteratorError = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion && _iterator.return) {
+              _iterator.return();
+            }
+          } finally {
+            if (_didIteratorError) {
+              throw _iteratorError;
+            }
+          }
+        }
+
+        reportDates.sort(function (a, b) {
+          return a.diff(b);
+        });
+
+        // Add GeoJSON to map and initialize it
         var pointToLayer = function pointToLayer(pt, pos) {
           return _leaflet2.default.marker(pos, { title: pt.properties.name });
         };
         _this3.map.addGeoJson(data, { pointToLayer: pointToLayer });
-        _this3.setState({ dates: _this3.extractGeoJSONData(data) });
+        _this3.setState({ dates: reportDates });
         _this3.updateLayers();
       },
       // Error handler
@@ -629,75 +675,20 @@ var NoumeaWaterQualityMap = function (_React$Component) {
       });
     }
   }, {
-    key: "extractGeoJSONData",
-    value: function extractGeoJSONData(data) {
-      var _this4 = this;
-
-      // Extract all dates
-      var dates = new Set();
-      var _iteratorNormalCompletion = true;
-      var _didIteratorError = false;
-      var _iteratorError = undefined;
-
-      try {
-        for (var _iterator = data.features[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-          var feature = _step.value;
-
-          _underscore2.default.each(feature.properties.data, function (d) {
-            return dates.add(_this4.getYearMonthDateFromFrDatetimeStr(d.date).getTime());
-          });
-        }
-        // Convert & Sort them
-      } catch (err) {
-        _didIteratorError = true;
-        _iteratorError = err;
-      } finally {
-        try {
-          if (!_iteratorNormalCompletion && _iterator.return) {
-            _iterator.return();
-          }
-        } finally {
-          if (_didIteratorError) {
-            throw _iteratorError;
-          }
-        }
-      }
-
-      dates = Array.from(dates).sort();
-      return _underscore2.default.map(dates, function (d) {
-        return new Date(d);
-      });
-    }
-  }, {
-    key: "getYearMonthDateFromFrDatetimeStr",
-    value: function getYearMonthDateFromFrDatetimeStr(datetimeStr) {
-      var _datetimeStr$split = datetimeStr.split(' '),
-          _datetimeStr$split2 = _slicedToArray(_datetimeStr$split, 1),
-          dateStr = _datetimeStr$split2[0];
-
-      var _dateStr$split = dateStr.split('/'),
-          _dateStr$split2 = _slicedToArray(_dateStr$split, 3),
-          day = _dateStr$split2[0],
-          month = _dateStr$split2[1],
-          year = _dateStr$split2[2];
-
-      return new Date(year, month - 1);
-    }
-  }, {
     key: "updateLayers",
     value: function updateLayers() {
-      var _this5 = this;
+      var _this4 = this;
 
       this.map.geoJSONLayer.eachLayer(function (layer) {
-        if (layer.feature.geometry.type === "Point") _this5.updateMarker(layer);else {
-          _this5.updateArea(layer);
+        if (layer.feature.geometry.type === "Point") _this4.updateMarker(layer);else {
+          _this4.updateArea(layer);
         }
       });
     }
   }, {
     key: "updateArea",
     value: function updateArea(area) {
-      var _this6 = this;
+      var _this5 = this;
 
       var associatedPoints = _underscore2.default.filter(this.map.geoJSONLayer._layers, function (l) {
         var _l$feature = l.feature,
@@ -707,9 +698,10 @@ var NoumeaWaterQualityMap = function (_React$Component) {
         return type === "Point" && area.feature.properties.points.includes(name);
       });
       var statuses = _underscore2.default.map(associatedPoints, function (p) {
-        var currentData = _this6.getCurrentData(p.feature.properties.data);
-        return STATUSES.indexOf(_this6.getQualityStatus(currentData));
+        var currentData = _this5.getCurrentData(p.feature.properties.data);
+        return STATUSES.indexOf(_this5.getQualityStatus(currentData));
       });
+
       var worstStatusText = STATUSES[_underscore2.default.max(statuses)];
       area.setStyle({
         // Assumes that data is sorted with more recent date at last position
@@ -746,7 +738,7 @@ var NoumeaWaterQualityMap = function (_React$Component) {
           name = _ref.name;
 
       if (currentData === null) return "<div class=\"map-popup\"><h4 class=\"point-name\">Point " + name + "</h4>Aucune donn\xE9e pour ce point pour le mois s\xE9lectionn\xE9</div>";
-      return "<div class=\"map-popup\">\n      <h4 class=\"point-name\">Point " + name + "</h4>\n      <p>\n        Le <b>" + currentData.date.replace(" ", " à ") + "</b> le niveau de pollution\n        pour ce point \xE9tait <b style=\"color: " + COLORS[status] + ";\">" + status + "</b>.\n      </p>\n      " + this.generateHtmlTableForData(currentData, data) + "\n    </div>";
+      return "<div class=\"map-popup\">\n      <h4 class=\"point-name\">Point " + name + "</h4>\n      <p>\n        Le <b>" + currentData.date.format(PRETTY_DATE_FORMAT) + "</b> le niveau de pollution\n        pour ce point \xE9tait : <b style=\"color: " + COLORS[status] + ";\">" + status + "</b>\n      </p>\n      " + this.generateHtmlTableForData(currentData, data) + "\n    </div>";
     }
   }, {
     key: "generateHtmlTableForData",
@@ -754,32 +746,51 @@ var NoumeaWaterQualityMap = function (_React$Component) {
       var dataIdx = _underscore2.default.findLastIndex(allData, currentData);
       var lines = [];
 
-      for (var i = dataIdx; i > dataIdx - POPUP_HISTORY_TABLE_SIZE && i >= 0; i--) {
-        var data = allData[i];
-        var escherichiaColiStatus = this.getEscherichiaColiStatus(data.escherichia_coli);
-        var intestinalEnterococciStatus = this.getIntestinalEnterococciStatus(data.intestinal_enterococci);
-        lines.push("<tr>\n        <td>" + data.date + "</td>\n        <td style=\"color: " + COLORS[escherichiaColiStatus] + ";\">\n          " + data.escherichia_coli + "\n        </td>\n        <td style=\"color: " + COLORS[intestinalEnterococciStatus] + ";\">\n          " + data.intestinal_enterococci + "\n        </td>\n      </tr>");
+      var _iteratorNormalCompletion2 = true;
+      var _didIteratorError2 = false;
+      var _iteratorError2 = undefined;
+
+      try {
+        for (var _iterator2 = _underscore2.default.filter(allData, function (d) {
+          return d.date.isSame(currentData.date, 'month');
+        })[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+          var data = _step2.value;
+
+          var escherichiaColiStatus = this.getEscherichiaColiStatus(data.escherichia_coli);
+          var intestinalEnterococciStatus = this.getIntestinalEnterococciStatus(data.intestinal_enterococci);
+          var prettyDate = data.date.isSame(currentData.date, 'day') ? "<b>" + data.date.format(DATE_FORMAT) + "</b>" : data.date.format(DATE_FORMAT);
+
+          lines.push("<tr>\n        <td>" + prettyDate + "</td>\n        <td style=\"color: " + COLORS[escherichiaColiStatus] + ";\">\n          " + data.escherichia_coli + "\n        </td>\n        <td style=\"color: " + COLORS[intestinalEnterococciStatus] + ";\">\n          " + data.intestinal_enterococci + "\n        </td>\n      </tr>");
+        }
+      } catch (err) {
+        _didIteratorError2 = true;
+        _iteratorError2 = err;
+      } finally {
+        try {
+          if (!_iteratorNormalCompletion2 && _iterator2.return) {
+            _iterator2.return();
+          }
+        } finally {
+          if (_didIteratorError2) {
+            throw _iteratorError2;
+          }
+        }
       }
+
       return "<table class=\"all-data\">\n      <thead>\n        <th>Date du pr\xE9l\xE8vement</th>\n        <th>Escherichia coli (NPP/100ml)</th>\n        <th>Ent\xE9rocoques intestinaux (NPP/100ml)</th>\n      <thead>\n      <tbody>\n        " + lines.join('') + "\n      </tbody>\n    </table>";
     }
   }, {
     key: "getCurrentData",
     value: function getCurrentData(data) {
-      var _this7 = this;
+      var _this6 = this;
 
       // Get latest feature data for selected month
       var lastDataForSelectedMonth = _underscore2.default.findLastIndex(data, function (_ref2) {
         var date = _ref2.date;
 
-        var dataYearMonth = _this7.getYearMonthDateFromFrDatetimeStr(date);
-        return _this7.isSameMonthOrBefore(dataYearMonth, _this7.selectedDate);
+        return date.isSameOrBefore(_this6.selectedDate, 'day');
       });
       return lastDataForSelectedMonth === -1 ? null : data[lastDataForSelectedMonth];
-    }
-  }, {
-    key: "isSameMonthOrBefore",
-    value: function isSameMonthOrBefore(date1, date2) {
-      return date1.getYear() <= date2.getYear() && date1.getMonth() <= date2.getMonth();
     }
   }, {
     key: "getQualityStatus",
@@ -944,7 +955,15 @@ var _NoumeaWaterQualityMap = require("./components/NoumeaWaterQualityMap");
 
 var _NoumeaWaterQualityMap2 = _interopRequireDefault(_NoumeaWaterQualityMap);
 
+var _moment = require("moment");
+
+var _moment2 = _interopRequireDefault(_moment);
+
+require("moment/locale/fr");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_moment2.default.locale('fr');
 
 _reactDom2.default.render(_react2.default.createElement(_NavMenu2.default, null), document.getElementById('nav-menu'));
 

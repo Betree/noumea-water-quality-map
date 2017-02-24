@@ -709,136 +709,6 @@
     }, 
     {
       "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          166.471865, 
-          -22.26683
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "data": [
-          {
-            "date": "01/12/2016 09:04:00", 
-            "intestinal_enterococci": 1376, 
-            "escherichia_coli": 323
-          }, 
-          {
-            "date": "05/12/2016 09:25:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "08/12/2016 09:36:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "12/12/2016 09:30:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "15/12/2016 11:41:00", 
-            "intestinal_enterococci": 30, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "19/12/2016 09:28:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "22/12/2016 09:30:00", 
-            "intestinal_enterococci": 52, 
-            "escherichia_coli": 265
-          }, 
-          {
-            "date": "23/12/2016 09:13:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "26/12/2016 09:27:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 41
-          }, 
-          {
-            "date": "29/12/2016 09:30:00", 
-            "intestinal_enterococci": 20, 
-            "escherichia_coli": 85
-          }, 
-          {
-            "date": "02/01/2017 09:35:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 31
-          }, 
-          {
-            "date": "05/01/2017 09:36:00", 
-            "intestinal_enterococci": 31, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "09/01/2017 09:44:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "12/01/2017 09:35:00", 
-            "intestinal_enterococci": 41, 
-            "escherichia_coli": 135
-          }, 
-          {
-            "date": "16/01/2017 09:35:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 31
-          }, 
-          {
-            "date": "19/01/2017 09:24:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "23/01/2017 09:25:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "26/01/2017 09:20:00", 
-            "intestinal_enterococci": 52, 
-            "escherichia_coli": 294
-          }, 
-          {
-            "date": "30/01/2017 09:00:00", 
-            "intestinal_enterococci": 292, 
-            "escherichia_coli": 209
-          }, 
-          {
-            "date": "02/02/2017 09:17:00", 
-            "intestinal_enterococci": 52, 
-            "escherichia_coli": 228
-          }, 
-          {
-            "date": "13/02/2017 09:13:00", 
-            "intestinal_enterococci": 144, 
-            "escherichia_coli": 441
-          }, 
-          {
-            "date": "16/02/2017 09:17:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 52
-          }, 
-          {
-            "date": "20/02/2017 09:40:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 51
-          }
-        ], 
-        "name": "P18031"
-      }
-    }, 
-    {
-      "geometry": {
         "type": "Polygon", 
         "coordinates": [
           [
@@ -1053,7 +923,8 @@
       "type": "Feature", 
       "properties": {
         "points": [
-          "P18043"
+          "P18043", 
+          "P18031"
         ]
       }
     }, 
@@ -1189,6 +1060,136 @@
     }, 
     {
       "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          166.471865, 
+          -22.26683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "data": [
+          {
+            "date": "01/12/2016 09:04:00", 
+            "intestinal_enterococci": 1376, 
+            "escherichia_coli": 323
+          }, 
+          {
+            "date": "05/12/2016 09:25:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "08/12/2016 09:36:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "12/12/2016 09:30:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "15/12/2016 11:41:00", 
+            "intestinal_enterococci": 30, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "19/12/2016 09:28:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "22/12/2016 09:30:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 265
+          }, 
+          {
+            "date": "23/12/2016 09:13:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/12/2016 09:27:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 41
+          }, 
+          {
+            "date": "29/12/2016 09:30:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 85
+          }, 
+          {
+            "date": "02/01/2017 09:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
+          }, 
+          {
+            "date": "05/01/2017 09:36:00", 
+            "intestinal_enterococci": 31, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "09/01/2017 09:44:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "12/01/2017 09:35:00", 
+            "intestinal_enterococci": 41, 
+            "escherichia_coli": 135
+          }, 
+          {
+            "date": "16/01/2017 09:35:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 31
+          }, 
+          {
+            "date": "19/01/2017 09:24:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "23/01/2017 09:25:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "26/01/2017 09:20:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 294
+          }, 
+          {
+            "date": "30/01/2017 09:00:00", 
+            "intestinal_enterococci": 292, 
+            "escherichia_coli": 209
+          }, 
+          {
+            "date": "02/02/2017 09:17:00", 
+            "intestinal_enterococci": 52, 
+            "escherichia_coli": 228
+          }, 
+          {
+            "date": "13/02/2017 09:13:00", 
+            "intestinal_enterococci": 144, 
+            "escherichia_coli": 441
+          }, 
+          {
+            "date": "16/02/2017 09:17:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 52
+          }, 
+          {
+            "date": "20/02/2017 09:40:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 51
+          }
+        ], 
+        "name": "P18031"
+      }
+    }, 
+    {
+      "geometry": {
         "type": "Polygon", 
         "coordinates": [
           [
@@ -1292,43 +1293,9 @@
       "type": "Feature", 
       "properties": {
         "points": [
+          "P18141", 
           "P18050"
         ]
-      }
-    }, 
-    {
-      "geometry": {
-        "type": "Point", 
-        "coordinates": [
-          166.438123, 
-          -22.299298
-        ]
-      }, 
-      "type": "Feature", 
-      "properties": {
-        "data": [
-          {
-            "date": "23/01/2017 07:58:00", 
-            "intestinal_enterococci": 63, 
-            "escherichia_coli": 73
-          }, 
-          {
-            "date": "30/01/2017 07:58:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "13/02/2017 07:56:00", 
-            "intestinal_enterococci": 10, 
-            "escherichia_coli": 10
-          }, 
-          {
-            "date": "20/02/2017 07:59:00", 
-            "intestinal_enterococci": 20, 
-            "escherichia_coli": 20
-          }
-        ], 
-        "name": "P18050"
       }
     }, 
     {
@@ -1364,6 +1331,41 @@
           }
         ], 
         "name": "P18141"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          166.438123, 
+          -22.299298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "data": [
+          {
+            "date": "23/01/2017 07:58:00", 
+            "intestinal_enterococci": 63, 
+            "escherichia_coli": 73
+          }, 
+          {
+            "date": "30/01/2017 07:58:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "13/02/2017 07:56:00", 
+            "intestinal_enterococci": 10, 
+            "escherichia_coli": 10
+          }, 
+          {
+            "date": "20/02/2017 07:59:00", 
+            "intestinal_enterococci": 20, 
+            "escherichia_coli": 20
+          }
+        ], 
+        "name": "P18050"
       }
     }, 
     {
