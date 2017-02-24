@@ -11,6 +11,7 @@ import {default as Legend} from "./Legend"
 import {default as MonthSlider} from "./MonthSlider"
 
 const GEOJSON_FILE =      "data/geojson/simple.geojson"
+const BASE_SOURCE_URL =   "https://github.com/Betree/noumea-water-quality-map/blob/gh-pages/data/raw/"
 const INITIAL_LOCATION =  new L.LatLng(-22.285, 166.45)
 const BOUNDS =            [[-22.35, 166.28], [-22.20, 166.61]]
 const INITIAL_ZOOM =      14
@@ -159,6 +160,11 @@ export default class NoumeaWaterQualityMap extends React.Component {
         pour ce point était : <b style="color: ${COLORS[status]};">${status}</b>
       </p>
       ${this.generateHtmlTableForData(currentData, data)}
+      <hr>
+      <a target="_blank" href="${BASE_SOURCE_URL + currentData.source_file}">
+        <span class="icon is-small">🔗</span>
+        Source
+      </a>
     </div>`)}
 
   generateHtmlTableForData(currentData, allData) {

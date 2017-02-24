@@ -35,6 +35,8 @@ class NoumeaReportParser:
         self.point_names_aliases = point_names_aliases
 
     def load(self, pdf_path):
+        self.current_file = os.path.basename(pdf_path)
+
         # Export report to XML using pdftohtml
         call(['pdftohtml', '-xml', pdf_path])
         xml_filepath = pdf_path.replace(".pdf", ".xml")
@@ -111,6 +113,7 @@ class NoumeaReportParser:
         if not existing_data:
             self.data[location_name][point_name].append({
                 'date': date_report,
+                'source_file': self.current_file,
                 'escherichia_coli': self.parse_int(lines[num_line + 2]),
                 'intestinal_enterococci': self.parse_int(lines[num_line + 3])
             })
