@@ -428,12 +428,26 @@ var NavMenu = function (_React$Component) {
             { className: "nav-item" },
             _react2.default.createElement(
               "a",
+              { className: "button is-small", href: "https://github.com/Betree/noumea-water-quality-map" },
+              _react2.default.createElement(
+                "span",
+                { className: "icon is-small" },
+                "\uD83D\uDC19"
+              ),
+              _react2.default.createElement(
+                "span",
+                null,
+                "Fork"
+              )
+            ),
+            _react2.default.createElement(
+              "a",
               { className: "button is-small",
                 href: "https://twitter.com/intent/tweet?text=" + SHARING_ENCODED },
               _react2.default.createElement(
                 "span",
                 { className: "icon is-small" },
-                _react2.default.createElement("i", { className: "fa fa-twitter" })
+                "\uD83D\uDC25"
               ),
               _react2.default.createElement(
                 "span",
@@ -446,27 +460,8 @@ var NavMenu = function (_React$Component) {
               { className: "button is-small", href: "https://www.facebook.com/sharer/sharer.php?u=https%3A//goo.gl/JLV7jz" },
               _react2.default.createElement(
                 "span",
-                { className: "icon is-small" },
-                _react2.default.createElement("i", { className: "fa fa-facebook" })
-              ),
-              _react2.default.createElement(
-                "span",
                 null,
-                "Share"
-              )
-            ),
-            _react2.default.createElement(
-              "a",
-              { className: "button is-small", href: "https://github.com/Betree/noumea-water-quality-map" },
-              _react2.default.createElement(
-                "span",
-                { className: "icon is-small" },
-                _react2.default.createElement("i", { className: "fa fa-github" })
-              ),
-              _react2.default.createElement(
-                "span",
-                null,
-                "Fork"
+                "Share on Facebook"
               )
             )
           )
@@ -975,5 +970,3 @@ require.alias("process/browser.js", "process");process = require('process');requ
   
 });})();require('___globals___');
 
-
-//# sourceMappingURL=app.js.map
