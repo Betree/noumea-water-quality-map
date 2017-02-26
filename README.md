@@ -5,7 +5,7 @@ This project intend to provide a very basic way to provide a map of water pollut
 It is fuly static and focus on the view (client side). You may fit it to your
 own project by changing the way GeoJSON files are generated.
 
-All text are using French, but there's not o a lot of it 😉
+All text are using French, but there's not a lot of it 😉
 
 ![Nouméa water quality map screenshot](https://lut.im/zcwdJpieRU/6nIuas2biDgjumDu.png)
 
