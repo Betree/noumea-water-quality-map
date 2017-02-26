@@ -1,6 +1,6 @@
 # 🌊 Noumea water quality map 🌊
 
-This project intend to provide a very basic way to provide a map of water pollution.
+This project intend to provide a very basic way to display a map of water pollution.
 
 It is fuly static and focus on the view (client side). You may fit it to your
 own project by changing the way GeoJSON files are generated.
