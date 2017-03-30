@@ -7,8 +7,6 @@ own project by changing the way GeoJSON files are generated.
 
 All text are using French, but there's not a lot of it 😉
 
-![Nouméa water quality map screenshot](https://lut.im/zcwdJpieRU/6nIuas2biDgjumDu.png)
-
 ## How to use
 
 The web part doesn't need any specific server, all the code lays in HTML/JS/CSS.
