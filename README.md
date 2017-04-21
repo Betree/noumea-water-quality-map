@@ -2,6 +2,8 @@
 
 This project intend to provide a very basic way to display a map of water pollution.
 
+⚠️ Not updated for now. I'm currently trying to get better data from the organization that provide them (parsing these PDFs is the most disgusting thing I've done in my life). 
+
 It is fuly static and focus on the view (client side). You may fit it to your
 own project by changing the way GeoJSON files are generated.
 
